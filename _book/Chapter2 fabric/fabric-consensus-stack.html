@@ -1,0 +1,1315 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Section2.3.5 stack · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="fabric-consensus-others.html" />
+    
+    
+    <link rel="prev" href="fabric-consensus-blockchain.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Chapter1 Geth/">
+            
+                <a href="../Chapter1 Geth/">
+            
+                    
+                    Chapter1 Geth
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                <a href="../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                    
+                    Section1.1 start & configure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Chapter1 Geth/geth-engine.html">
+            
+                <a href="../Chapter1 Geth/geth-engine.html">
+            
+                    
+                    Section1.2 engine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Chapter1 Geth/geth-event-receive.html">
+            
+                <a href="../Chapter1 Geth/geth-event-receive.html">
+            
+                    
+                    Section1.3 event-receive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../Chapter1 Geth/geth-event-send&mine.html">
+            
+                <a href="../Chapter1 Geth/geth-event-send&mine.html">
+            
+                    
+                    Section1.4 event-send&mine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../Chapter1 Geth/Mining-process.html">
+            
+                <a href="../Chapter1 Geth/Mining-process.html">
+            
+                    
+                    Section1.5 mining process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../Chapter1 Geth/communication.html">
+            
+                <a href="../Chapter1 Geth/communication.html">
+            
+                    
+                    Section1.6 communication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../Chapter1 Geth/Ethereum-code.html">
+            
+                <a href="../Chapter1 Geth/Ethereum-code.html">
+            
+                    
+                    Section1.7 code analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Chapter2 fabric
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="fabric-v0.6-startup.html">
+            
+                <a href="fabric-v0.6-startup.html">
+            
+                    
+                    Section2.1 fabric v0.6 startup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="fabric-event.html">
+            
+                <a href="fabric-event.html">
+            
+                    
+                    Section2.2 Event
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="fabric-event-stream-to-consenter.html">
+            
+                <a href="fabric-event-stream-to-consenter.html">
+            
+                    
+                    Section2.2.1 stream to consenter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="fabric-event-consenter-to-pbft.html">
+            
+                <a href="fabric-event-consenter-to-pbft.html">
+            
+                    
+                    Section2.2.2 consenter to pbft
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="fabric-event-pbft-to-network.html">
+            
+                <a href="fabric-event-pbft-to-network.html">
+            
+                    
+                    Section2.2.3 pbft to network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="fabric-consensus.html">
+            
+                <a href="fabric-consensus.html">
+            
+                    
+                    Section2.3 Consensus
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="fabric-consensus-event.html">
+            
+                <a href="fabric-consensus-event.html">
+            
+                    
+                    Section2.3.1 event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="fabric-consensus-network.html">
+            
+                <a href="fabric-consensus-network.html">
+            
+                    
+                    Section2.3.2 network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="fabric-consensus-crypto.html">
+            
+                <a href="fabric-consensus-crypto.html">
+            
+                    
+                    Section2.3.3 crypto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="fabric-consensus-blockchain.html">
+            
+                <a href="fabric-consensus-blockchain.html">
+            
+                    
+                    Section2.3.4 blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3.5" data-path="fabric-consensus-stack.html">
+            
+                <a href="fabric-consensus-stack.html">
+            
+                    
+                    Section2.3.5 stack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.6" data-path="fabric-consensus-others.html">
+            
+                <a href="fabric-consensus-others.html">
+            
+                    
+                    Section2.3.6 others
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.7" data-path="Hyperledger-fabric-pbft-consensus.html">
+            
+                <a href="Hyperledger-fabric-pbft-consensus.html">
+            
+                    
+                    Section2.3.7 summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="fabric-message.html">
+            
+                <a href="fabric-message.html">
+            
+                    
+                    Section2.4 fabric message structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="Fabric-protocol.html">
+            
+                <a href="Fabric-protocol.html">
+            
+                    
+                    Section2.5 fabric protocol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="fabric-v0.6-实际入口serve函数.html">
+            
+                <a href="fabric-v0.6-实际入口serve函数.html">
+            
+                    
+                    Section2.6 fabric v0.6 实际入口serve()函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="接口与实现.html">
+            
+                <a href="接口与实现.html">
+            
+                    
+                    Section2.7 接口与实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="prePrepare-prepare-and-commit.html">
+            
+                <a href="prePrepare-prepare-and-commit.html">
+            
+                    
+                    Section2.8 prePrepare、prepare-and-commit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Chapter3 clique/clique.html">
+            
+                <a href="../Chapter3 clique/clique.html">
+            
+                    
+                    Chapter3 clique
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../Chapter4 development notes/">
+            
+                <a href="../Chapter4 development notes/">
+            
+                    
+                    Chapter4 development notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../Chapter4 development notes/ethereum-plan.html">
+            
+                <a href="../Chapter4 development notes/ethereum-plan.html">
+            
+                    
+                    Section4.1 plan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../Chapter4 development notes/">
+            
+                <a href="../Chapter4 development notes/">
+            
+                    
+                    Section4.2 notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../Chapter4 development notes/zhiguo-notes.html">
+            
+                <a href="../Chapter4 development notes/zhiguo-notes.html">
+            
+                    
+                    Section4.2.1 zhiguo's notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="../Chapter4 development notes/xiaobei/">
+            
+                <a href="../Chapter4 development notes/xiaobei/">
+            
+                    
+                    Section4.2.2 xiaobei's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.2.1" data-path="../Chapter4 development notes/xiaobei/geth-pbft开发笔记.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/geth-pbft开发笔记.html">
+            
+                    
+                    geth-pbft开发笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.2" data-path="../Chapter4 development notes/xiaobei/geth-pbft消息传递机制.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/geth-pbft消息传递机制.html">
+            
+                    
+                    geth-pbft消息传递机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.3" data-path="../Chapter4 development notes/xiaobei/checkpoint部分的恢复与修改.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/checkpoint部分的恢复与修改.html">
+            
+                    
+                    checkpoint部分的恢复与修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.4" data-path="../Chapter4 development notes/xiaobei/stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                    
+                    stateUpdateEvent、stateUpdatedEvent的接收和处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.5" data-path="../Chapter4 development notes/xiaobei/viewchange struct.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/viewchange struct.html">
+            
+                    
+                    viewchange struct
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.6" data-path="../Chapter4 development notes/xiaobei/遇到的问题1.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/遇到的问题1.html">
+            
+                    
+                    mine test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.7" data-path="../Chapter4 development notes/xiaobei/遇到的问题2.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/遇到的问题2.html">
+            
+                    
+                    mine test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.8" data-path="../Chapter4 development notes/xiaobei/遇到的问题3.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/遇到的问题3.html">
+            
+                    
+                    mine test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.9" data-path="../Chapter4 development notes/xiaobei/viewchange-test-遇到的问题1.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/viewchange-test-遇到的问题1.html">
+            
+                    
+                    viewchange test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.10" data-path="../Chapter4 development notes/xiaobei/viewchange-test-遇到的问题2.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/viewchange-test-遇到的问题2.html">
+            
+                    
+                    viewchange test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.11" data-path="../Chapter4 development notes/xiaobei/viewchange-test-遇到的问题3.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/viewchange-test-遇到的问题3.html">
+            
+                    
+                    viewchange test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.12" data-path="../Chapter4 development notes/xiaobei/操作步骤.html">
+            
+                <a href="../Chapter4 development notes/xiaobei/操作步骤.html">
+            
+                    
+                    操作步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="../Chapter4 development notes/Agzs/Home.html">
+            
+                <a href="../Chapter4 development notes/Agzs/Home.html">
+            
+                    
+                    Section4.2.3 Agzs's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.3.1" data-path="../Chapter4 development notes/Agzs/环境搭建.html">
+            
+                <a href="../Chapter4 development notes/Agzs/环境搭建.html">
+            
+                    
+                    搭建编译环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.2" data-path="../Chapter4 development notes/Agzs/addPeer操作解析.html">
+            
+                <a href="../Chapter4 development notes/Agzs/addPeer操作解析.html">
+            
+                    
+                    解析addPeer操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.3" data-path="../Chapter4 development notes/Agzs/配置文件问题.html">
+            
+                <a href="../Chapter4 development notes/Agzs/配置文件问题.html">
+            
+                    
+                    11.12_15 配置文件问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.4" data-path="../Chapter4 development notes/Agzs/peer共享问题.html">
+            
+                <a href="../Chapter4 development notes/Agzs/peer共享问题.html">
+            
+                    
+                    11.15_20 peer共享连接问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.5" data-path="../Chapter4 development notes/Agzs/pbft的API问题.html">
+            
+                <a href="../Chapter4 development notes/Agzs/pbft的API问题.html">
+            
+                    
+                    11.20_21 pbft的API问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.6" data-path="../Chapter4 development notes/Agzs/pbft投票选举新的授权节点signer.html">
+            
+                <a href="../Chapter4 development notes/Agzs/pbft投票选举新的授权节点signer.html">
+            
+                    
+                    11.21_22 pbft投票选举新的signer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.7" data-path="../Chapter4 development notes/Agzs/数据结构功能汇总.html">
+            
+                <a href="../Chapter4 development notes/Agzs/数据结构功能汇总.html">
+            
+                    
+                    数据结构功能汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.8" data-path="../Chapter4 development notes/Agzs/修改文件汇总.html">
+            
+                <a href="../Chapter4 development notes/Agzs/修改文件汇总.html">
+            
+                    
+                    修改文件汇总(push)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.9" data-path="../Chapter4 development notes/Agzs/编译运行问题汇总.html">
+            
+                <a href="../Chapter4 development notes/Agzs/编译运行问题汇总.html">
+            
+                    
+                    编译运行问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.10" data-path="../Chapter4 development notes/Agzs/系统存在的bug.html">
+            
+                <a href="../Chapter4 development notes/Agzs/系统存在的bug.html">
+            
+                    
+                    想到的bug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.11" data-path="../Chapter4 development notes/Agzs/交易测试.html">
+            
+                <a href="../Chapter4 development notes/Agzs/交易测试.html">
+            
+                    
+                    交易测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../env/">
+            
+                <a href="../env/">
+            
+                    
+                    env
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../env/smart-contract.html">
+            
+                <a href="../env/smart-contract.html">
+            
+                    
+                    geth and smart contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../env/git-merge.html">
+            
+                <a href="../env/git-merge.html">
+            
+                    
+                    Git merge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../env/git-pull-撤销误操作.html">
+            
+                <a href="../env/git-pull-撤销误操作.html">
+            
+                    
+                    Git pull撤销误操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../env/solve-reported-error.html">
+            
+                <a href="../env/solve-reported-error.html">
+            
+                    
+                    循环导包问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../env/git-lfs-上传大于100MB文件.html">
+            
+                <a href="../env/git-lfs-上传大于100MB文件.html">
+            
+                    
+                    git上传大文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../env/安装librocksdb.so.4.1的共享库.html">
+            
+                <a href="../env/安装librocksdb.so.4.1的共享库.html">
+            
+                    
+                    librocksdb.so.4.1共享库问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../Tips/">
+            
+                <a href="../Tips/">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../Tips/Comma-ok.html">
+            
+                <a href="../Tips/Comma-ok.html">
+            
+                    
+                    Comma-ok断言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../Tips/golang-protobuf-tutorial.html">
+            
+                <a href="../Tips/golang-protobuf-tutorial.html">
+            
+                    
+                    golang 安装使用 protobuf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../Tips/Tips-in-Golang.html">
+            
+                <a href="../Tips/Tips-in-Golang.html">
+            
+                    
+                    golang interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../Tips/go语言-与-JSON.html">
+            
+                <a href="../Tips/go语言-与-JSON.html">
+            
+                    
+                    go语言-与-JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../Tips/Terminal-Lantern.html">
+            
+                <a href="../Tips/Terminal-Lantern.html">
+            
+                    
+                    Terminal Lantern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../Tips/append函数.html">
+            
+                <a href="../Tips/append函数.html">
+            
+                    
+                    内置函数append()
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Section2.3.5 stack</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><code>Stack</code>&#x662F;<code>consensus</code>&#x91CC;&#x4E00;&#x4E2A;&#x4E3B;&#x8981;&#x7684;&#x63A5;&#x53E3;, &#x5305;&#x542B;&#x4E86;<code>consensus.go</code>&#x91CC;&#x5B9A;&#x4E49;&#x7684;&#x9664;&#x81EA;&#x8EAB;&#x548C;<code>Consenter</code>&#x4E4B;&#x5916;&#x7684;&#x6240;&#x6709;&#x63A5;&#x53E3;.</p>
+<p>&#x5728;<code>pbft</code>&#x5185;&#x90E8;, &#x4E5F;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x4E0E;&#x6B64;&#x5BF9;&#x5E94;&#x7684;&#x63A5;&#x53E3;<code>innerStack</code>, &#x7528;&#x4E8E;&#x5185;&#x90E8;&#x4F7F;&#x7528;.</p>
+<p>&#x5BF9;&#x4E8E;<code>Stack</code>&#x91CC;&#x4E00;&#x4E9B;&#x65B9;&#x6CD5;&#x7684;&#x4ECB;&#x7ECD;&#x5728;&#x524D;&#x9762;&#x5404;&#x90E8;&#x5206;&#x5DF2;&#x7ECF;&#x63D0;&#x5230;&#x4E86;&#x4E00;&#x90E8;&#x5206;, &#x8FD9;&#x91CC;&#x7EFC;&#x5408;&#x5730;&#x63CF;&#x8FF0;&#x4E0B;<code>Stack</code>&#x7684;&#x5404;&#x4E2A;&#x90E8;&#x5206;.</p>
+<blockquote>
+<p>Stack is the set of stack-facing methods available to the consensus plugin</p>
+</blockquote>
+<pre><code class="lang-go"><span class="hljs-keyword">type</span> Stack <span class="hljs-keyword">interface</span> {
+    NetworkStack
+    SecurityUtils
+    Executor
+    LegacyExecutor
+    LedgerManager
+    ReadOnlyLedger
+    StatePersistor
+}
+</code></pre>
+<h2 id="vars">Vars</h2>
+<p>&#x867D;&#x7136;&#x5728;&#x6CE8;&#x91CA;&#x4E2D;&#x5730;&#x63D0;&#x5230;&#x4E86;&#x5728;<code>consensus/helper/handler.go</code>&#x4E2D;&#x5B9A;&#x4E49;&#x7684;<code>ConsensusHandler</code>&#x4E5F;&#x5B9E;&#x73B0;&#x4E86;<code>Stack</code>, &#x4F46;&#x662F;&#x67E5;&#x627E;&#x4EE3;&#x7801;&#x4F1A;&#x53D1;&#x73B0;, &#x5176;&#x5B9E;&#x53EA;&#x6709;<code>consensus/helper/helper.go</code>&#x4E2D;&#x5B9A;&#x4E49;&#x7684;<code>Helper</code>&#x5B9E;&#x73B0;&#x4E86;<code>Stack</code>. &#x6240;&#x4EE5;&#x4E0B;&#x9762;&#x53EA;&#x4F1A;&#x8BA8;&#x8BBA;<code>Helper</code>.</p>
+<blockquote>
+<p>Helper contains the reference to the peer&apos;s MessageHandlerCoordinator</p>
+</blockquote>
+<pre><code class="lang-go"><span class="hljs-keyword">type</span> Helper <span class="hljs-keyword">struct</span> {
+    consenter    consensus.Consenter
+    coordinator  peer.MessageHandlerCoordinator
+    secOn        <span class="hljs-keyword">bool</span>
+    valid        <span class="hljs-keyword">bool</span> <span class="hljs-comment">// Whether we believe the state is up to date</span>
+    secHelper    crypto.Peer
+    curBatch     []*pb.Transaction       <span class="hljs-comment">// TODO, remove after issue 579</span>
+    curBatchErrs []*pb.TransactionResult <span class="hljs-comment">// TODO, remove after issue 579</span>
+    persist.Helper
+
+    executor consensus.Executor
+}
+</code></pre>
+<h3 id="consenter"><code>consenter</code></h3>
+<p><code>consenter</code>&#x6210;&#x5458;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#x4E3A;<code>Consenter</code>, &#x5373;<code>consensus</code>&#x91CC;&#x5B9A;&#x4E49;&#x7684;<code>Consenter</code>&#x63A5;&#x53E3;. &#x6CE8;&#x610F;&#x5230;, <code>Stack</code>&#x5E76;&#x4E0D;&#x5305;&#x62EC;<code>Consenter</code>.</p>
+<pre><code class="lang-go"><span class="hljs-comment">// ExecutionConsumer allows callbacks from asycnhronous execution and statetransfer</span>
+<span class="hljs-keyword">type</span> ExecutionConsumer <span class="hljs-keyword">interface</span> {
+    Executed(tag <span class="hljs-keyword">interface</span>{})                                <span class="hljs-comment">// Called whenever Execute completes</span>
+    Committed(tag <span class="hljs-keyword">interface</span>{}, target *pb.BlockchainInfo)    <span class="hljs-comment">// Called whenever Commit completes</span>
+    RolledBack(tag <span class="hljs-keyword">interface</span>{})                              <span class="hljs-comment">// Called whenever a Rollback completes</span>
+    StateUpdated(tag <span class="hljs-keyword">interface</span>{}, target *pb.BlockchainInfo) <span class="hljs-comment">// Called when state transfer completes, if target is nil, this indicates a failure and a new target should be supplied</span>
+}
+
+<span class="hljs-comment">// Consenter is used to receive messages from the network</span>
+<span class="hljs-comment">// Every consensus plugin needs to implement this interface</span>
+<span class="hljs-keyword">type</span> Consenter <span class="hljs-keyword">interface</span> {
+    RecvMsg(msg *pb.Message, senderHandle *pb.PeerID) error <span class="hljs-comment">// Called serially with incoming messages from gRPC</span>
+    ExecutionConsumer
+}
+</code></pre>
+<p>&#x5728;<code>Engine</code>&#x7684;&#x521D;&#x59CB;&#x5316;&#x8FC7;&#x7A0B;&#x4E2D;, &#x4F1A;&#x5148;&#x521B;&#x5EFA;<code>Helper</code>, &#x7136;&#x540E;&#x7528;<code>Helper</code>&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x521B;&#x5EFA;<code>obcBatch</code>(&#x5373;<code>Consenter</code>&#x7684;&#x5B9E;&#x73B0;), &#x7136;&#x540E;&#x518D;&#x628A;<code>obcBatch</code>&#x8D4B;&#x7ED9;<code>Helper</code>, &#x6574;&#x4E2A;&#x8FC7;&#x7A0B;&#x4E0B;&#x6765;, <code>Helper</code>&#x548C;<code>Consenter</code>&#x4E24;&#x8005;&#x4F1A;&#x4E92;&#x76F8;&#x5305;&#x542B;&#x5BF9;&#x65B9;&#x4F5C;&#x4E3A;&#x6210;&#x5458;&#x53D8;&#x91CF;.</p>
+<p><code>Helper</code>&#x4E2D;&#x4EC5;&#x4F7F;&#x7528;<code>consenter</code>&#x6765;&#x5B9E;&#x73B0;<code>ExecutionConsumer</code>&#x63A5;&#x53E3;. &#x5728;<code>ExecutionConsumer</code>&#x5DF2;&#x7ECF;&#x63D0;&#x5230;. &#x8FD9;&#x4E9B;&#x65B9;&#x6CD5;&#x5C06;&#x4F1A;&#x5728;<code>executor</code>&#x4E2D;&#x88AB;&#x4F7F;&#x7528;.</p>
+<h3 id="coordinator"><code>coordinator</code></h3>
+<p><code>coordinator</code>&#x7C7B;&#x578B;&#x4E3A;<code>peer.MessageHandlerCoordinator</code>, &#x5B9A;&#x4E49;&#x5728;<code>peer</code>&#x4E2D;, &#x662F;&#x521D;&#x59CB;&#x5316;<code>engine</code>&#x65F6;&#x7684;&#x552F;&#x4E00;&#x53C2;&#x6570;, &#x4E5F;&#x53EF;&#x4EE5;&#x8BF4;&#x662F;&#x548C;&#x8282;&#x70B9;&#x8054;&#x7CFB;&#x7684;&#x9014;&#x5F84;. <code>engine</code>&#x4F7F;&#x7528;&#x5B83;&#x83B7;&#x5F97;<code>PeerEndpoint</code>(&#x672C;&#x8282;&#x70B9;), &#x7136;&#x540E;&#x5C06;&#x5B83;&#x4F20;&#x7ED9;<code>Helper</code>&#x7528;&#x4E8E;&#x521D;&#x59CB;&#x5316;, &#x81EA;&#x5DF1;&#x5E76;&#x4E0D;&#x4FDD;&#x5B58;&#x8FD9;&#x4E2A;&#x53D8;&#x91CF;. <code>Helper</code>&#x4F1A;&#x4FDD;&#x5B58;&#x8BE5;&#x53D8;&#x91CF;, &#x5E76;&#x7528;&#x5B83;&#x6765;&#x5B9E;&#x73B0;&#x4E86;<code>NetworkStack</code>&#x91CC;&#x7684;&#x529F;&#x80FD;, &#x5305;&#x62EC;&#x83B7;&#x53D6;&#x8282;&#x70B9;&#x4FE1;&#x606F;, &#x5E7F;&#x64AD;, &#x5355;&#x64AD;, &#x53E6;&#x5916;&#x8FD8;&#x5305;&#x62EC;&#x83B7;&#x53D6;&#x533A;&#x5757;&#x94FE;&#x957F;&#x5EA6;.</p>
+<pre><code class="lang-go">h.coordinator.GetPeerEndpoint()
+h.coordinator.GetPeers()
+h.coordinator.Broadcast(msg, peerType)
+h.coordinator.Unicast(msg, receiverHandle)
+h.coordinator.GetBlockchainSize()
+</code></pre>
+<p><code>ConsensusHandler</code>&#x4E2D;&#x4E5F;&#x4FDD;&#x5B58;&#x4E86;&#x8BE5;&#x7C7B;&#x578B;&#x53D8;&#x91CF;, &#x4F46;&#x5E76;&#x672A;&#x4F7F;&#x7528;.</p>
+<p>&#x8BE5;&#x53D8;&#x91CF;&#x4E5F;&#x4F1A;&#x88AB;&#x4F20;&#x7ED9;<code>executor</code>, &#x5C06;&#x5728;&#x540E;&#x9762;&#x63D0;&#x5230;.</p>
+<h3 id="secon"><code>secOn</code></h3>
+<p>&#x4E00;&#x4E2A;&#x7C7B;&#x578B;&#x4E3A;<code>bool</code>&#x7684;&#x7B80;&#x5355;&#x53D8;&#x91CF;, &#x5224;&#x65AD;&#x662F;&#x5426;&#x5BF9;&#x6D88;&#x606F;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;(Sign&amp;Verify), &#x7531;&#x914D;&#x7F6E;&#x4FE1;&#x606F;&#x51B3;&#x5B9A;&#x53D6;&#x503C;, &#x4E14;&#x5728;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x65F6;&#x4E0D;&#x518D;&#x6539;&#x53D8;.</p>
+<h3 id="valid"><code>valid</code></h3>
+<p>&#x7C7B;&#x578B;&#x4E3A;<code>bool</code>. &#x7528;&#x4E8E;&#x6807;&#x8BB0;&#x662F;&#x5426;&#x5F53;&#x524D;&#x72B6;&#x6001;&#x662F;&#x5426;&#x4E3A;&#x6700;&#x65B0;.</p>
+<blockquote>
+<p>Whether we believe the state is up to date</p>
+</blockquote>
+<p>&#x7528;&#x4E8E;&#x5B9E;&#x73B0;<code>LedgerManager</code>&#x63A5;&#x53E3;, &#x5728;<code>LedgerManager</code>&#x4E2D;&#x5DF2;&#x7ECF;&#x63D0;&#x5230;&#x4E86;&#x4F7F;&#x7528;&#x60C5;&#x51B5;.</p>
+<p>&#x5728;<code>engine</code>&#x6267;&#x884C;<code>func ProcessTransactionMsg()</code>&#x548C;<code>Helper</code>&#x6267;&#x884C;<code>func UpdateState()</code>&#x65F6;&#x4F1A;&#x68C0;&#x67E5;<code>valid</code>&#x7684;&#x53D6;&#x503C;.</p>
+<h3 id="sechelper"><code>secHelper</code></h3>
+<p>&#x7528;&#x4E8E;&#x5B9E;&#x73B0;<code>SecurityUtils</code>&#x63A5;&#x53E3;, &#x7C7B;&#x578B;&#x4E3A;<code>crypto.Peer</code>, &#x901A;&#x8FC7;&#x8C03;&#x7528;<code>coordinator.GetSecHelper()</code>&#x751F;&#x6210;. &#x5728;&#x6D88;&#x606F;&#x4F20;&#x9012;&#x524D;&#x4F1A;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;, &#x63A5;&#x6536;&#x540E;&#x8FDB;&#x884C;&#x89E3;&#x5BC6;.</p>
+<p>&#x5B9E;&#x9645;&#x4E0A;, &#x5728;<code>pbft</code>&#x4E2D;&#x5E76;&#x6CA1;&#x6709;&#x76F4;&#x63A5;&#x4F7F;&#x7528;<code>SecurityUtils</code>&#x63A5;&#x53E3;, &#x800C;&#x662F;&#x8FDB;&#x884C;&#x4E86;&#x5C01;&#x88C5;, &#x4F46;&#x4E3B;&#x8981;&#x8FD8;&#x662F;<code>SecurityUtils</code>&#x63A5;&#x53E3;&#x90E8;&#x5206;.</p>
+<h3 id="curbatch--curbatcherrs"><code>curBatch</code> &amp; <code>curBatchErrs</code></h3>
+<p>&#x7C7B;&#x578B;&#x5206;&#x522B;&#x4E3A;<code>[]*pb.Transaction</code>&#x548C;<code>[]*pb.TransactionResult</code>, &#x50A8;&#x5B58;Tx&#x548C;Tx&#x7684;&#x6267;&#x884C;&#x7ED3;&#x679C;, &#x6CE8;&#x91CA;&#x4E2D;&#x63D0;&#x5230;, &#x8FD9;&#x4E24;&#x4E2A;&#x53D8;&#x91CF;&#x5C06;&#x88AB;&#x5220;&#x53BB;.</p>
+<pre><code class="lang-go">curBatch     []*pb.Transaction       <span class="hljs-comment">// TODO, remove after issue 579</span>
+curBatchErrs []*pb.TransactionResult <span class="hljs-comment">// TODO, remove after issue 579</span>
+</code></pre>
+<p>&#x8FD9;&#x4E24;&#x4E2A;&#x53D8;&#x91CF;&#x5C06;&#x4F1A;&#x5728;&#x8BB0;&#x5F55;&#x4EA7;&#x751F;&#x7684;Tx, &#x7136;&#x540E;&#x901A;&#x8FC7;<code>func CommitTxBatch()</code>&#x63D0;&#x4EA4;.</p>
+<h3 id="persisthelper"><code>persist.Helper</code></h3>
+<p><code>Help</code>&#x7EE7;&#x627F;&#x4E86;<code>persist.Helper</code>, &#x7528;&#x4E8E;&#x5B9E;&#x73B0;<code>StatePersistor</code>&#x63A5;&#x53E3;. &#x6682;&#x4E0D;&#x5173;&#x6CE8;.</p>
+<h3 id="executor"><code>executor</code></h3>
+<p>&#x7C7B;&#x578B;&#x4E3A;<code>consensus.Executor</code>, &#x7528;&#x4E8E;&#x5B9E;&#x73B0;<code>Executor</code>&#x63A5;&#x53E3;. &#x901A;&#x8FC7;<code>executor.NewImpl(h, h, mhc)</code>&#x521D;&#x59CB;&#x5316;, &#x8FD9;&#x91CC;, <code>h</code>&#x662F;&#x6307;<code>Helper</code>&#x81EA;&#x8EAB;, <code>mhc</code>&#x5219;&#x662F;&#x524D;&#x9762;&#x63D0;&#x5230;&#x7684;<code>peer.MessageHandlerCoordinator</code>. &#x8FD9;&#x91CC;<code>mhc</code>&#x662F;&#x4F5C;&#x4E3A;<code>statetransfer.PartialStack</code>&#x4F7F;&#x7528;&#x7684;, <code>statetransfer</code>&#x5B9A;&#x4E49;&#x5728;<code>core/peer/statetransfer/statetransfer.go</code>, &#x7528;&#x6765;&#x8F6C;&#x6362;&#x72B6;&#x6001;, &#x5177;&#x4F53;&#x5730;, &#x5728;<code>executor</code>&#x91CC;&#x9664;&#x4E86;&#x8C03;&#x7528;&#x5916;<code>func Start()</code>, <code>func Halt()</code>&#x53EA;&#x662F;&#x5728;&#x6536;&#x5230;<code>stateUpdateEvent</code>&#x540E;&#x8C03;&#x7528;<code>func SyncToTarget()</code>&#x6765;&#x5C06;&#x533A;&#x5757;&#x94FE;&#x66F4;&#x65B0;&#x5230;&#x76EE;&#x6807;&#x72B6;&#x6001;.</p>
+<p>&#x524D;&#x9762;&#x5DF2;&#x7ECF;&#x63D0;&#x5230;&#x8FC7;<code>executor</code>&#x7684;&#x6267;&#x884C;&#x6A21;&#x5F0F;, &#x5373;&#x628A;&#x6240;&#x6709;&#x6D88;&#x606F;&#x90FD;&#x53D1;&#x9001;&#x7ED9;<code>event.Manager</code>&#x540E;&#x7ECF;<code>event.Manager</code>&#x8C03;&#x7528;<code>func ProcessEvent()</code>&#x6765;&#x6267;&#x884C;. <code>executor</code>&#x4E5F;&#x4E0D;&#x5177;&#x4F53;&#x89C4;&#x5B9A;&#x6267;&#x884C;&#x52A8;&#x4F5C;, &#x800C;&#x53EA;&#x662F;&#x628A;<code>Helper</code>&#x91CC;&#x7684;&#x65B9;&#x6CD5;(&#x5373;&#x63A5;&#x53E3;<code>ExecutionConsumer</code>&#x548C;<code>LegacyExecutor</code>)&#x5C01;&#x88C5;&#x8D77;&#x6765;, &#x5B9E;&#x9645;&#x52A8;&#x4F5C;&#x662F;&#x5728;&#x540E;&#x9762;&#x90A3;&#x4E24;&#x4E2A;&#x63A5;&#x53E3;&#x91CC;&#x5B9A;&#x4E49;&#x7684;.</p>
+<h2 id="func">func</h2>
+<p>&#x524D;&#x9762;&#x56F4;&#x7ED5;&#x7740;&#x5404;&#x4E2A;&#x53D8;&#x91CF;&#x5DF2;&#x7ECF;&#x63D0;&#x5230;&#x4E86;&#x4E00;&#x90E8;&#x5206;&#x51FD;&#x6570;, &#x9664;&#x6B64;&#x4E4B;&#x5916;&#x8FD8;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E9B;&#x51FD;&#x6570;&#x7528;&#x4E8E;&#x5B9E;&#x73B0;&#x63A5;&#x53E3;.</p>
+<h3 id="executor"><code>Executor</code></h3>
+<p>&#x9488;&#x5BF9;&#x8FD9;&#x4E2A;&#x63A5;&#x53E3;, &#x4E3B;&#x8981;&#x51FD;&#x6570;&#x662F;&#x901A;&#x8FC7;<code>executor</code>&#x5B9E;&#x73B0;&#x7684;, &#x7279;&#x522B;&#x7684;, <code>Executor</code>&#x5B9A;&#x4E49;&#x4E86;<code>func Start()</code>, <code>func Halt()</code>, &#x800C;&#x8FD9;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x5BF9;&#x4E8E;<code>Helper</code>&#x6765;&#x8BF4;&#x662F;&#x65E0;&#x610F;&#x4E49;&#x7684;, &#x6240;&#x4EE5;, &#x4EC5;&#x4EC5;&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;<code>Executor</code>, <code>Helper</code>&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;&#x4E24;&#x4E2A;&#x7A7A;&#x51FD;&#x6570;, &#x8FD9;&#x6837;&#x505A;&#x53EA;&#x662F;&#x4E3A;&#x4E86;&#x6EE1;&#x8DB3;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x89C4;&#x8303;. &#x53E6;&#x5916;, <code>executor</code>&#x5B9E;&#x9645;&#x5B9E;&#x73B0;&#x4E86;<code>Executor</code>&#x63A5;&#x53E3;, &#x6240;&#x4EE5;&#x4E5F;&#x5B9A;&#x4E49;&#x4E86;&#x8FD9;&#x4E24;&#x4E2A;&#x51FD;&#x6570;, &#x5728;&#x8FD9;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x4E2D;&#x5206;&#x522B;&#x542F;&#x52A8;&#x548C;&#x505C;&#x6B62;<code>event.Manager</code>&#x548C;<code>statetransfer</code>. &#x800C;<code>executor</code>&#x672C;&#x8EAB;&#x7684;&#x542F;&#x52A8;, &#x662F;&#x5728;<code>func setConsenter()</code>&#x91CC;&#x8FDB;&#x884C;&#x7684;. (&#x7531;&#x4E8E;<code>Helper</code>&#x7684;&#x521D;&#x59CB;&#x5316;&#x540E;&#x7D27;&#x63A5;&#x7740;&#x5C31;&#x6267;&#x884C;&#x4E86;<code>func setConsenter()</code>, &#x6240;&#x4EE5;&#x4E5F;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x6210;<code>Helper</code>&#x521D;&#x59CB;&#x5316;&#x65F6;&#x8FB9;&#x542F;&#x52A8;&#x4E86;<code>executor</code>.</p>
+<h3 id="readonlyledger"><code>ReadOnlyLedger</code></h3>
+<p>&#x8FD9;&#x4E9B;&#x90E8;&#x5206;&#x662F;&#x7531;<code>Helper</code>&#x548C;<code>Ledger</code>&#x7B49;&#x4EA4;&#x4E92;&#x5B9E;&#x73B0;&#x7684;, &#x5728;<code>ReadOnlyLedger</code>&#x91CC;&#x5DF2;&#x7ECF;&#x63D0;&#x5230;, &#x4E0D;&#x518D;&#x91CD;&#x590D;.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="fabric-consensus-blockchain.html" class="navigation navigation-prev " aria-label="Previous page: Section2.3.4 blockchain">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="fabric-consensus-others.html" class="navigation navigation-next " aria-label="Next page: Section2.3.6 others">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Section2.3.5 stack","level":"1.3.3.5","depth":3,"next":{"title":"Section2.3.6 others","level":"1.3.3.6","depth":3,"path":"Chapter2 fabric/fabric-consensus-others.md","ref":"Chapter2 fabric/fabric-consensus-others.md","articles":[]},"previous":{"title":"Section2.3.4 blockchain","level":"1.3.3.4","depth":3,"path":"Chapter2 fabric/fabric-consensus-blockchain.md","ref":"Chapter2 fabric/fabric-consensus-blockchain.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter2 fabric/fabric-consensus-stack.md","mtime":"2017-11-27T00:41:42.508Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-27T12:38:20.732Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

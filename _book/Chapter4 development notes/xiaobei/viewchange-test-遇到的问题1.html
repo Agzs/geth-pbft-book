@@ -1,0 +1,1336 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>viewchange test-遇到的问题（1） · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="viewchange-test-遇到的问题2.html" />
+    
+    
+    <link rel="prev" href="遇到的问题3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../Chapter1 Geth/">
+            
+                <a href="../../Chapter1 Geth/">
+            
+                    
+                    Chapter1 Geth
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                <a href="../../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                    
+                    Section1.1 start & configure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../Chapter1 Geth/geth-engine.html">
+            
+                <a href="../../Chapter1 Geth/geth-engine.html">
+            
+                    
+                    Section1.2 engine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../Chapter1 Geth/geth-event-receive.html">
+            
+                <a href="../../Chapter1 Geth/geth-event-receive.html">
+            
+                    
+                    Section1.3 event-receive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../Chapter1 Geth/geth-event-send&mine.html">
+            
+                <a href="../../Chapter1 Geth/geth-event-send&mine.html">
+            
+                    
+                    Section1.4 event-send&mine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../Chapter1 Geth/Mining-process.html">
+            
+                <a href="../../Chapter1 Geth/Mining-process.html">
+            
+                    
+                    Section1.5 mining process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../Chapter1 Geth/communication.html">
+            
+                <a href="../../Chapter1 Geth/communication.html">
+            
+                    
+                    Section1.6 communication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../Chapter1 Geth/Ethereum-code.html">
+            
+                <a href="../../Chapter1 Geth/Ethereum-code.html">
+            
+                    
+                    Section1.7 code analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../Chapter2 fabric/">
+            
+                <a href="../../Chapter2 fabric/">
+            
+                    
+                    Chapter2 fabric
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../Chapter2 fabric/fabric-v0.6-startup.html">
+            
+                <a href="../../Chapter2 fabric/fabric-v0.6-startup.html">
+            
+                    
+                    Section2.1 fabric v0.6 startup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../Chapter2 fabric/fabric-event.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event.html">
+            
+                    
+                    Section2.2 Event
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../Chapter2 fabric/fabric-event-stream-to-consenter.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-stream-to-consenter.html">
+            
+                    
+                    Section2.2.1 stream to consenter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../Chapter2 fabric/fabric-event-consenter-to-pbft.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-consenter-to-pbft.html">
+            
+                    
+                    Section2.2.2 consenter to pbft
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../../Chapter2 fabric/fabric-event-pbft-to-network.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-pbft-to-network.html">
+            
+                    
+                    Section2.2.3 pbft to network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../Chapter2 fabric/fabric-consensus.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus.html">
+            
+                    
+                    Section2.3 Consensus
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../../Chapter2 fabric/fabric-consensus-event.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-event.html">
+            
+                    
+                    Section2.3.1 event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../../Chapter2 fabric/fabric-consensus-network.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-network.html">
+            
+                    
+                    Section2.3.2 network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../../Chapter2 fabric/fabric-consensus-crypto.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-crypto.html">
+            
+                    
+                    Section2.3.3 crypto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="../../Chapter2 fabric/fabric-consensus-blockchain.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-blockchain.html">
+            
+                    
+                    Section2.3.4 blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.5" data-path="../../Chapter2 fabric/fabric-consensus-stack.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-stack.html">
+            
+                    
+                    Section2.3.5 stack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.6" data-path="../../Chapter2 fabric/fabric-consensus-others.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-others.html">
+            
+                    
+                    Section2.3.6 others
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.7" data-path="../../Chapter2 fabric/Hyperledger-fabric-pbft-consensus.html">
+            
+                <a href="../../Chapter2 fabric/Hyperledger-fabric-pbft-consensus.html">
+            
+                    
+                    Section2.3.7 summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../Chapter2 fabric/fabric-message.html">
+            
+                <a href="../../Chapter2 fabric/fabric-message.html">
+            
+                    
+                    Section2.4 fabric message structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../Chapter2 fabric/Fabric-protocol.html">
+            
+                <a href="../../Chapter2 fabric/Fabric-protocol.html">
+            
+                    
+                    Section2.5 fabric protocol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../Chapter2 fabric/fabric-v0.6-实际入口serve函数.html">
+            
+                <a href="../../Chapter2 fabric/fabric-v0.6-实际入口serve函数.html">
+            
+                    
+                    Section2.6 fabric v0.6 实际入口serve()函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../Chapter2 fabric/接口与实现.html">
+            
+                <a href="../../Chapter2 fabric/接口与实现.html">
+            
+                    
+                    Section2.7 接口与实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../Chapter2 fabric/prePrepare-prepare-and-commit.html">
+            
+                <a href="../../Chapter2 fabric/prePrepare-prepare-and-commit.html">
+            
+                    
+                    Section2.8 prePrepare、prepare-and-commit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../Chapter3 clique/clique.html">
+            
+                <a href="../../Chapter3 clique/clique.html">
+            
+                    
+                    Chapter3 clique
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Chapter4 development notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../ethereum-plan.html">
+            
+                <a href="../ethereum-plan.html">
+            
+                    
+                    Section4.1 plan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Section4.2 notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../zhiguo-notes.html">
+            
+                <a href="../zhiguo-notes.html">
+            
+                    
+                    Section4.2.1 zhiguo's notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Section4.2.2 xiaobei's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.2.1" data-path="geth-pbft开发笔记.html">
+            
+                <a href="geth-pbft开发笔记.html">
+            
+                    
+                    geth-pbft开发笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.2" data-path="geth-pbft消息传递机制.html">
+            
+                <a href="geth-pbft消息传递机制.html">
+            
+                    
+                    geth-pbft消息传递机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.3" data-path="checkpoint部分的恢复与修改.html">
+            
+                <a href="checkpoint部分的恢复与修改.html">
+            
+                    
+                    checkpoint部分的恢复与修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.4" data-path="stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                <a href="stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                    
+                    stateUpdateEvent、stateUpdatedEvent的接收和处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.5" data-path="viewchange struct.html">
+            
+                <a href="viewchange struct.html">
+            
+                    
+                    viewchange struct
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.6" data-path="遇到的问题1.html">
+            
+                <a href="遇到的问题1.html">
+            
+                    
+                    mine test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.7" data-path="遇到的问题2.html">
+            
+                <a href="遇到的问题2.html">
+            
+                    
+                    mine test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.8" data-path="遇到的问题3.html">
+            
+                <a href="遇到的问题3.html">
+            
+                    
+                    mine test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.2.2.9" data-path="viewchange-test-遇到的问题1.html">
+            
+                <a href="viewchange-test-遇到的问题1.html">
+            
+                    
+                    viewchange test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.10" data-path="viewchange-test-遇到的问题2.html">
+            
+                <a href="viewchange-test-遇到的问题2.html">
+            
+                    
+                    viewchange test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.11" data-path="viewchange-test-遇到的问题3.html">
+            
+                <a href="viewchange-test-遇到的问题3.html">
+            
+                    
+                    viewchange test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.12" data-path="操作步骤.html">
+            
+                <a href="操作步骤.html">
+            
+                    
+                    操作步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="../Agzs/Home.html">
+            
+                <a href="../Agzs/Home.html">
+            
+                    
+                    Section4.2.3 Agzs's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.3.1" data-path="../Agzs/环境搭建.html">
+            
+                <a href="../Agzs/环境搭建.html">
+            
+                    
+                    搭建编译环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.2" data-path="../Agzs/addPeer操作解析.html">
+            
+                <a href="../Agzs/addPeer操作解析.html">
+            
+                    
+                    解析addPeer操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.3" data-path="../Agzs/配置文件问题.html">
+            
+                <a href="../Agzs/配置文件问题.html">
+            
+                    
+                    11.12_15 配置文件问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.4" data-path="../Agzs/peer共享问题.html">
+            
+                <a href="../Agzs/peer共享问题.html">
+            
+                    
+                    11.15_20 peer共享连接问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.5" data-path="../Agzs/pbft的API问题.html">
+            
+                <a href="../Agzs/pbft的API问题.html">
+            
+                    
+                    11.20_21 pbft的API问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.6" data-path="../Agzs/pbft投票选举新的授权节点signer.html">
+            
+                <a href="../Agzs/pbft投票选举新的授权节点signer.html">
+            
+                    
+                    11.21_22 pbft投票选举新的signer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.7" data-path="../Agzs/数据结构功能汇总.html">
+            
+                <a href="../Agzs/数据结构功能汇总.html">
+            
+                    
+                    数据结构功能汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.8" data-path="../Agzs/修改文件汇总.html">
+            
+                <a href="../Agzs/修改文件汇总.html">
+            
+                    
+                    修改文件汇总(push)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.9" data-path="../Agzs/编译运行问题汇总.html">
+            
+                <a href="../Agzs/编译运行问题汇总.html">
+            
+                    
+                    编译运行问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.10" data-path="../Agzs/系统存在的bug.html">
+            
+                <a href="../Agzs/系统存在的bug.html">
+            
+                    
+                    想到的bug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.11" data-path="../Agzs/交易测试.html">
+            
+                <a href="../Agzs/交易测试.html">
+            
+                    
+                    交易测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../env/">
+            
+                <a href="../../env/">
+            
+                    
+                    env
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../env/smart-contract.html">
+            
+                <a href="../../env/smart-contract.html">
+            
+                    
+                    geth and smart contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../env/git-merge.html">
+            
+                <a href="../../env/git-merge.html">
+            
+                    
+                    Git merge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../env/git-pull-撤销误操作.html">
+            
+                <a href="../../env/git-pull-撤销误操作.html">
+            
+                    
+                    Git pull撤销误操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../../env/solve-reported-error.html">
+            
+                <a href="../../env/solve-reported-error.html">
+            
+                    
+                    循环导包问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../../env/git-lfs-上传大于100MB文件.html">
+            
+                <a href="../../env/git-lfs-上传大于100MB文件.html">
+            
+                    
+                    git上传大文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../../env/安装librocksdb.so.4.1的共享库.html">
+            
+                <a href="../../env/安装librocksdb.so.4.1的共享库.html">
+            
+                    
+                    librocksdb.so.4.1共享库问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../Tips/">
+            
+                <a href="../../Tips/">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../Tips/Comma-ok.html">
+            
+                <a href="../../Tips/Comma-ok.html">
+            
+                    
+                    Comma-ok断言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../Tips/golang-protobuf-tutorial.html">
+            
+                <a href="../../Tips/golang-protobuf-tutorial.html">
+            
+                    
+                    golang 安装使用 protobuf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../Tips/Tips-in-Golang.html">
+            
+                <a href="../../Tips/Tips-in-Golang.html">
+            
+                    
+                    golang interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../../Tips/go语言-与-JSON.html">
+            
+                <a href="../../Tips/go语言-与-JSON.html">
+            
+                    
+                    go语言-与-JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../../Tips/Terminal-Lantern.html">
+            
+                <a href="../../Tips/Terminal-Lantern.html">
+            
+                    
+                    Terminal Lantern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../../Tips/append函数.html">
+            
+                <a href="../../Tips/append函数.html">
+            
+                    
+                    内置函数append()
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >viewchange test-遇到的问题（1）</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <blockquote>
+<p>&#x89E6;&#x53D1;<code>viewchange</code>&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x6587;&#x4EF6;<code>config.yaml</code>&#x91CC;<code>request</code>&#x7684;&#x65F6;&#x95F4;&#x4E3A;0.00003s&#xFF0C;&#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x4EE3;&#x8868;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x8BF7;&#x6C42;&#xFF08;<code>block</code>&#x6216;&#x8005;&#x662F;&#x6536;&#x5230;&#x7684;<code>preprepare</code>&#x6D88;&#x606F;&#x7B49;&#xFF09;&#x4ECE;&#x63A5;&#x6536;&#x5230;&#x4E00;&#x76F4;&#x5230;&#x5904;&#x4E8E;<code>committed</code>&#x72B6;&#x6001;&#x6240;&#x9700;&#x8981;&#x7684;&#x65F6;&#x95F4;&#x3002;&#x5982;&#x679C;&#x8D85;&#x8FC7;&#x8FD9;&#x4E2A;&#x65F6;&#x95F4;&#x5C31;&#x4F1A;&#x89E6;&#x53D1;<code>viewchange</code>.</p>
+</blockquote>
+<h1 id="&#x4E00;&#x3001;">&#x4E00;&#x3001;</h1>
+<ul>
+<li>&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x5F53;&#x89E6;&#x53D1;viewchange&#x64CD;&#x4F5C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5404;&#x4E2A;&#x8282;&#x70B9;&#x4F1A;&#x66DD;&#x51FA;&#x7C7B;&#x4F3C;&#x4E8E;&#x5982;&#x4E0B;&#x9519;&#x8BEF;&#xFF1A;<pre><code>2017/11/07 19:50:58 Replica 0 found incorrect signature in view-change message: %!s(&lt;nil&gt;)
+</code></pre></li>
+<li>&#x51FA;&#x73B0;&#x95EE;&#x9898;&#x7684;&#x539F;&#x56E0;&#xFF1A;&#x5728;<code>func (instance *pbftCore) sendViewChange() events.Event</code>&#x91CC;&#xFF0C;&#x5F62;&#x6210;<code>vc.Signature</code>&#x7684;&#x65F6;&#x5019;&#x6709;&#x7528;&#x5230;&#x4E86;<code>vc</code>&#xFF1A;<pre><code>vc.Signature, _ = signFn(accounts.Account{Address: signer}, sigHash(nil, vc).Bytes())
+</code></pre>&#x6B64;&#x65F6;&#xFF0C;<code>sigHash</code>&#x91CC;&#x7684;<code>vc</code>&#x91CC;&#x7684;&#x53C2;&#x6570;<code>vc.Signature</code>&#x662F;&#x6CA1;&#x6709;&#x88AB;&#x8D4B;&#x503C;&#x7684;&#x3002;&#x800C;&#x5728;<code>func (instance *pbftCore) recvViewChange(vc *types.ViewChange) events.Event</code>&#x91CC;&#x9A8C;&#x8BC1;&#x7B7E;&#x540D;&#x7684;&#x65F6;&#x5019;&#x7528;&#x7684;<code>vc</code>&#xFF0C;&#x91CC;&#x9762;&#x7684;<code>vc.Signature</code>&#x662F;&#x5DF2;&#x7ECF;&#x88AB;&#x8D4B;&#x503C;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x5BFC;&#x81F4;&#x7B7E;&#x540D;&#x9A8C;&#x8BC1;&#x5931;&#x8D25;&#x3002;</li>
+<li>&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x5728;<code>pbft.go</code>&#x91CC;&#x7684;<code>func sigHash(header *types.Header, viewChange *types.ViewChange) (hash common.Hash)</code>&#x628A;<code>viewChange.Signature</code>&#x6CE8;&#x91CA;&#x6389;&#x3002;<h1 id="&#x4E8C;&#x3001;">&#x4E8C;&#x3001;</h1>
+</li>
+<li>&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#xFF1A;
+&#x5728;signer1&#xFF1A;<pre><code>2017/11/07 20:41:28 Replica 0 ignoring processNewView as it could not find view 1 in its newViewStore
+</code></pre>&#x5728;signer2&#xFF1A;<pre><code>2017/11/07 20:41:28 Replica 1 received view change quorum, processing new view
+2017/11/07 20:41:28 Replica 1 appending checkpoint from replica 0 with seqNo=0, h=0, and checkpoint digest XXX GENESIS
+2017/11/07 20:41:28 Replica 1 appending checkpoint from replica 1 with seqNo=0, h=0, and checkpoint digest XXX GENESIS
+2017/11/07 20:41:28 Replica 1 appending checkpoint from replica 2 with seqNo=0, h=0, and checkpoint digest XXX GENESIS
+2017/11/07 20:41:28 Stopping timer
+panic: runtime error: index out of range
+</code></pre></li>
+<li>&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#xFF1A;&#x7ECF;&#x6253;&#x5370;&#x6392;&#x67E5;&#x53D1;&#x73B0;&#xFF0C;&#x95EE;&#x9898;&#x51FA;&#x73B0;&#x5728;&#x51FD;&#x6570;<code>func ConvertMapToStruct(msgList map[uint64]string) []*types.XSet</code>&#x91CC;&#x9762;&#xFF0C;&#x5728;&#x8BE5;&#x51FD;&#x6570;&#x91CC;&#x53EA;&#x5B9A;&#x4E49;&#x4E86;&#x6570;&#x7EC4;<code>xset</code>&#xFF0C;&#x4F46;&#x662F;&#x6CA1;&#x6709;&#x7ED9;&#x4ED6;&#x5206;&#x914D;&#x7A7A;&#x95F4;&#x3002;</li>
+<li>&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x589E;&#x52A0;&#x4E24;&#x6761;&#x8BED;&#x53E5;<pre><code>l := len(msgList)
+xset := make([]*types.XSet, l)
+</code></pre>&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x3002;<h1 id="&#x4E09;&#x3001;">&#x4E09;&#x3001;</h1>
+</li>
+<li>&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;<code>signer1</code>&#x53D1;&#x9001;<code>viewchange</code>&#x6D88;&#x606F;&#x540E;&#xFF0C;&#x5176;&#x4ED6;&#x8282;&#x70B9;&#x5305;&#x62EC;<code>signer1</code>&#x4E00;&#x76F4;&#x5FAA;&#x73AF;&#x8F93;&#x51FA;&#x5982;&#x4E0B;&#x8BED;&#x53E5;(&#x4EE5;<code>signer1</code>&#x4E3A;&#x4F8B;)&#xFF1A;<pre><code>2017/11/09 09:27:39 Replica 0 already has a view change message for view 1 from replica 0
+</code></pre>&#x4E0D;&#x80FD;&#x8FDB;&#x884C;&#x63A5;&#x4E0B;&#x6765;&#x7684;&#x64CD;&#x4F5C;&#x3002;</li>
+<li>&#x51FA;&#x73B0;&#x95EE;&#x9898;&#x7684;&#x539F;&#x56E0;&#xFF1A;&#x51FA;&#x73B0;&#x8FD9;&#x79CD;&#x72B6;&#x6001;&#x7684;&#x539F;&#x56E0;&#x662F;&#x56E0;&#x4E3A;&#x53EA;&#x6709;<code>signer1</code>&#x53D1;&#x9001;&#x4E86;<code>viewchange</code>&#x6D88;&#x606F;&#xFF0C;&#x5176;&#x4ED6;&#x8282;&#x70B9;&#x90FD;&#x6CA1;&#x6709;&#x53D1;&#x9001;&#xFF0C;&#x8FD9;&#x6837;&#x4F1A;&#x9020;&#x6210;&#x6C38;&#x8FDC;&#x65E0;&#x6CD5;&#x6536;&#x5230;&#x4E00;&#x4E2A;<code>quorum</code>&#x7684;<code>viewchange</code>&#x6D88;&#x606F;,&#x4E5F;&#x5C31;&#x65E0;&#x6CD5;&#x8FDB;&#x884C;&#x63A5;&#x4E0B;&#x6765;&#x7684;&#x64CD;&#x4F5C;&#x3002;</li>
+<li>&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x5728;<code>config.yaml</code>&#x91CC;&#x628A;<code>nullrequest</code>&#x7684;&#x65F6;&#x95F4;&#x7531;0&#x53D8;&#x4E3A;5s&#x3002;<code>nullrequest</code>&#x5BF9;&#x5E94;&#x7684;&#x65F6;&#x95F4;&#x662F;<code>nullRequestTimeout</code>&#x3002;&#x5F53;<code>block</code>&#x5904;&#x4E8E;<code>committed</code>&#x72B6;&#x6001;&#x6216;&#x8005;&#x662F;&#x89E6;&#x53D1;<code>stateUpdatedEvent</code>&#x7684;&#x65F6;&#x5019;&#x4F1A;&#x901A;&#x8FC7;&#x8C03;&#x7528;<code>func (instance *pbftCore) executeOutstanding()</code>&#x5C42;&#x5C42;&#x8C03;&#x7528;&#x8FDB;&#x800C;&#x8C03;&#x7528;<code>func (instance *pbftCore) startTimerIfOutstandingBlocks()</code>&#x6765;&#x89E6;&#x53D1;<code>nullRequestEvent</code>&#x3002;&#x8BE5;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x540E;&#xFF0C;&#x5982;&#x679C;&#x8BE5;&#x8282;&#x70B9;&#x662F;&#x4E3B;&#x8282;&#x70B9;&#xFF0C;&#x4F1A;&#x91CD;&#x65B0;&#x53D1;&#x9001;<code>preprepare</code>&#x6D88;&#x606F;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x975E;&#x4E3B;&#x8282;&#x70B9;&#xFF0C;&#x4F1A;&#x53D1;&#x9001;<code>viewchange</code>&#x6D88;&#x606F;&#x3002;&#x7531;&#x4E8E;&#x5728;&#x8FD9;&#x91CC;&#x5FAA;&#x73AF;&#x8F93;&#x51FA;&#x5982;&#x4E0A;&#x8BED;&#x53E5;&#xFF0C;&#x6240;&#x4EE5;&#x65E0;&#x8BBA;&#x662F;&#x4E3B;&#x8282;&#x70B9;&#x8FD8;&#x662F;&#x975E;&#x4E3B;&#x8282;&#x70B9;&#x90FD;&#x65E0;&#x6CD5;&#x8FDB;&#x884C;&#x63A5;&#x4E0B;&#x6765;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x4E8E;&#x662F;&#x5728;<code>func (instance *pbftCore) recvViewChange(vc *types.ViewChange) events.Event</code>&#x7684;<code>if</code>&#x6761;&#x4EF6;&#x8BED;&#x53E5;&#x91CC;&#x589E;&#x52A0;&#x4E86;&#x5982;&#x4E0B;&#x8BED;&#x53E5;&#x6765;&#x89E6;&#x53D1;<code>nullRequestEvent</code>:<pre><code>if _, ok := instance.viewChangeStore[vcidx{vc.View, vc.ReplicaId}]; ok {
+      logger.Warningf(&quot;Replica %d already has a view change message for view %d from replica %d&quot;, instance.id, vc.View, vc.ReplicaId)
+      /////////
+      ////--xiaobei 11.9
+      if !flag &amp;&amp; instance.nullRequestTimeout &gt; 0 {
+          timeout := instance.nullRequestTimeout
+          if instance.primary(instance.view) != instance.id {
+              // we&apos;re waiting for the primary to deliver a null request - give it a bit more time
+              timeout += instance.requestTimeout
+          }
+          instance.nullRequestTimer.Reset(timeout, nullRequestEvent{})
+          flag = true
+      }
+      /////////
+      return nil
+  }
+</code></pre><code>flag</code>&#x7684;&#x4F5C;&#x7528;&#x662F;&#x4F7F;&#x8BE5;&#x4E8B;&#x4EF6;&#x7684;&#x5F00;&#x542F;&#x53EA;&#x5F00;&#x542F;&#x4E00;&#x6B21;&#x3002;&#x52A0;&#x5165;&#x540E;&#x8BE5;&#x6BB5;&#x8BED;&#x53E5;&#x540E;&#xFF0C;<code>viewchange</code>&#x5C31;&#x53EF;&#x4EE5;&#x4E0D;&#x6B62;&#x4E3B;&#x8282;&#x70B9;&#x89E6;&#x53D1;&#xFF0C;&#x9632;&#x6B62;&#x8FDB;&#x5165;&#x65E0;&#x9650;&#x5FAA;&#x73AF;&#x4E4B;&#x4E2D;&#x3002;<h1 id="&#x56DB;&#x3001;">&#x56DB;&#x3001;</h1>
+</li>
+<li>&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x5404;&#x4E2A;&#x8282;&#x70B9;&#x4E0D;&#x80FD;&#x6B63;&#x786E;&#x9A8C;&#x8BC1;<code>new view</code>&#x91CC;&#x7684;<code>xset</code>,&#x4EE5;replica0&#x4E3A;&#x4F8B;:<pre><code>2017/11/09 17:27:35 Replica 0 failed to verify new-view Xset: computed map[19:&gt;&#xFFFD;&#xFFFD;&gt;&#xFFFD;E&#xFFFD;#&#xFFFD;_Tg&#xFFFD;)&#xFFFD;bIvh&#xFFFD;&#xFFFD;&lt;V}!S 7:&#xFFFD;}f/7&#xFFFD; &#xFFFD;&#xFFFD;&#x29C;&#xFFFD;&#xFFFD;&#x493F;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;V&#xFFFD;&#xFFFD;&#x7BC;0 18:&#xFFFD;#l&#xFFFD;7&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;Q?&#xFFFD;&#xFFFD;&#xFFFD;d/&#xFFFD;&#xFFFD;V?1Rp&#xFFFD;&#xFFFD;5&#xFFFD;&#xFFFD; 4:&#xFFFD;&#xFFFD;oz&#xFFFD;&lt;a&#xFFFD;&gt;L&#xFFFD;&#xFFFD;d&#xFFFD;v*&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;-/&#xFFFD;&#xFFFD;)&#xFFFD;&#xFFFD;&#xFFFD;f&#xFFFD;&#xFFFD; 11:&amp;^&#x276;&#xFFFD;&#xFFFD;t)&#xFFFD;w4&#xFFFD;S&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;F&#xFFFD;-e&#xFFFD;m&#x469; 15:&#xFFFD;&#xFFFD;D;&#xFFFD;+&#xFFFD;&#xFFFD;i&#xFFFD;&#xFFFD;&#xFFFD;&#x1E4;&#xFFFD;xF`I&#x65A;&#xFFFD;&#xFFFD;&#xFFFD;z&#xFFFD;%&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD; 16:U&#xFFFD;c&#xFFFD;V&#x7F2;&#xFFFD;&#x553;$&amp;&#xFFFD;&#xFFFD;&#xFFFD;F&#x6FD;
+                                                                    &#xFFFD;c&#xFFFD;&#xFFFD;9&#x6F4;&#xFFFD;=&#xFFFD; 6:&#x47B;&#xFFFD;&#xFFFD;GB&#xFFFD;(&#x5CD;$&#xFFFD;&#xFFFD;&#xFFFD;&#x776;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;9/))&#xFFFD;&#xFFFD;&#xFFFD;/6MV 2:/&apos;&#xFFFD;K&#xFFFD;9&#x7A6;&#xFFFD;GG&#xFFFD;TH&#xFFFD;E:&#xFFFD;]&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;, 12:&#xFFFD;i&#x700;0&#xFFFD;&#xFFFD;&#xFFFD;0C\E&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;|&#xFFFD;C&#x70F;&#xFFFD;&#xFFFD;[6&#xFFFD;&#xFFFD;W 5:_&#xFFFD;&#xFFFD;E&#xFFFD;^&#xFFFD;uR&#xFFFD;
+                                  &#xFFFD;q&#xFFFD;q&#xFFFD;&#xFFFD;r&#xFFFD;&#xFFFD;&#xFFFD;.&#xFFFD;&#xFFFD; 14:]&#xFFFD;pft=&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#x398;&#xFFFD;&#xFFFD;Tb+&#xFFFD;8z&#x37E;&#xFFFD;q&#xFFFD;S&#xFFFD;&#xFFFD; 17:&#xFFFD;&#xFFFD;k&lt;*&#xFFFD;&#xFFFD;
+        &#xFFFD;j&#xFFFD;&#xFFFD;AH&#xFFFD;&#xFFFD;#&#xFFFD;+ 3:&#xFFFD;&#xFFFD;A    &#xFFFD;Y&#xFFFD;&#x81;;Ls&#xFFFD;.v&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;Qb&#xFFFD;yAq&#xFFFD;&#x41C; 9:h&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;N&#xFFFD;i&#x1A9;CY&#xFFFD;&#xFFFD;    &#xFFFD;|&#xFFFD;7k&#xFFFD;&#xCD1A;&#xFFFD;&#xFFFD;  13:?    &#xFFFD;1&#xFFFD;&#xFFFD;&#xFFFD;&#x472;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;1/&#xFFFD;&#xFFFD;m&#x63F;;V&#xFFFD;&#xFFFD;&#xFFFD; 20:&#xFFFD;&#xFFFD;&apos;&#xFFFD;&lt;&#xFFFD;&#xFFFD;&#xFFFD;Q!&#xFFFD;&#xFFFD;R&#xFFFD;?rwr&#xFFFD;&#xFFFD; m&#xFFFD;&#xFFFD;n&#xFFFD;Q&#xFFFD;W&#x753; 8:&#xFFFD;C&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;m&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;*5s&#xFFFD;&gt;#&#xFFFD;(&#xFFFD;&#xFFFD;cC 10:&#xFFFD;Qt&amp;&#xFFFD;&apos;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;u&#xFFFD;&#xFFFD;|&#xFFFD;&#xFFFD;p&#xFFFD;&#xFFFD;~8|&#xFFFD;&#xFFFD;&#xFFFD;Pn 1:4]&#xFFFD;$%&#xA9;bRRGXU&#xFFFD;B&#xFFFD;A&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;A&#xFFFD;&#xFFFD;W&#xFFFD;a&#xFFFD;&#xFFFD;], received [0xc42131f7e0 0xc42131f800 0xc42131f820 0xc42131f840 0xc42131f880 0xc42131f8a0 0xc42131f8e0 0xc42131f900 0xc42131f920 0xc42131f960 0xc42131f9a0 0xc42131f9c0 0xc42131f9e0 0xc42131fa20 0xc42131fa40 0xc42131fa60 0xc42131fa80 0xc42131faa0 0xc42131fac0 0xc42131fb00]
+</code></pre></li>
+<li>&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#xFF1A;&#x5728;<code>func (instance *pbftCore) processNewView() events.Event</code>&#x91CC;&#x5C06;<code>msgList</code>&#x548C;<code>nv.Xset</code>&#x8FDB;&#x884C;&#x4E86;&#x6BD4;&#x8F83;&#xFF0C;&#x800C;<code>nv.Xset</code>&#x662F;&#x8FDB;&#x884C;&#x7ED3;&#x6784;&#x4F53;&#x8F6C;&#x6362;&#x540E;&#x7684;<code>msgList</code>&#xFF0C;&#x4ED6;&#x4FE9;&#x4E0D;&#x53EF;&#x80FD;&#x76F8;&#x7B49;&#xFF0C;&#x81EA;&#x7136;&#x62A5;&#x9519;&#x3002;</li>
+<li>&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x5C06;<code>msgList</code>&#x5148;&#x8FDB;&#x884C;&#x683C;&#x5F0F;&#x53D8;&#x5316;&#xFF0C;&#x518D;&#x4E0E;<code>nv.Xset</code>&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#xFF0C;<code>msglist := ConvertMapToStruct(msgList)</code>,&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x3002;<h1 id="&#x4E94;&#x3001;">&#x4E94;&#x3001;</h1>
+</li>
+<li>&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x5F53;<code>signer1</code>&#x89E6;&#x53D1;<code>viewchange</code>&#x4E4B;&#x540E;&#xFF0C;<code>signer2</code>&#x6210;&#x4E3A;&#x4E86;&#x4E3B;&#x8282;&#x70B9;&#xFF0C;&#x4F46;&#x662F;<code>signer2</code>&#x4E0D;&#x80FD;&#x8FDB;&#x884C;&#x6316;&#x77FF;&#xFF0C;&#x62A5;&#x9519;&#xFF1A;<pre><code>panic:assignment to entry in nil map
+</code></pre></li>
+<li>&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#xFF1A;&#x5F53;<code>viewchange</code>&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#xFF0C;&#x4F1A;&#x89E6;&#x53D1;<code>viewchangedEvent</code>&#xFF0C;&#x5728;<code>func (instance *pbftCore) ProcessEvent(e events.Event) events.Event</code>&#x91CC;&#x5BF9;&#x8BE5;&#x4E8B;&#x4EF6;&#x8FDB;&#x884C;&#x5904;&#x7406;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8BEF;&#x5C06;<code>instance.blockStore</code>&#x7F6E;&#x4E3A;&#x4E86;<code>nil</code>&#x3002;</li>
+<li>&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x5728;&#x5BF9;<code>viewchangedEvent</code>&#x8FDB;&#x884C;&#x5904;&#x7406;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x91CD;&#x65B0;&#x7ED9;<code>instance.blockStore</code>&#x5206;&#x914D;&#x7A7A;&#x95F4;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x7F6E;&#x4E3A;&#x7A7A;&#xFF1A;<pre><code>instance.blockStore = make(map[string]*types.Block) ////--xiaobei 11.9
+</code></pre><h1 id="&#x516D;&#x3001;">&#x516D;&#x3001;</h1>
+</li>
+<li>&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x89E3;&#x51B3;&#x5B8C;&#x4E0A;&#x8FF0;&#x95EE;&#x9898;&#x4E4B;&#x540E;&#xFF0C;&#x5F00;&#x542F;&#x56DB;&#x4E2A;&#x8282;&#x70B9;&#x80FD;&#x591F;&#x6B63;&#x786E;&#x8FDB;&#x884C;<code>viewchange</code>&#xFF0C;<code>viewchange</code>&#x5B8C;&#x6BD5;&#x540E;&#x4E5F;&#x80FD;&#x6B63;&#x786E;&#x8FDB;&#x884C;&#x6316;&#x77FF;&#x3001;&#x540C;&#x6B65;&#x3002;&#x4F46;&#x662F;&#x5F53;&#x6211;&#x628A;&#x6240;&#x6709;&#x7684;&#x8282;&#x70B9;&#x90FD;<code>exit</code>&#x540E;&#x518D;&#x91CD;&#x65B0;&#x5F00;&#x542F;&#x56DB;&#x4E2A;&#x8282;&#x70B9;&#x8FDB;&#x884C;&#x6316;&#x77FF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C31;&#x4F1A;&#x4E0D;&#x65AD;&#x51FA;&#x73B0;&#x7C7B;&#x4F3C;&#x4E8E;&#x4EE5;&#x4E0B;&#x7684;&#x95EE;&#x9898;&#xFF1A;<pre><code>Replica 1 failed to verify new-view Xset: computed [0xc42179c300 0xc42179c320 0xc42179c340 0xc42179c360 0xc42179c380 0xc42179c3e0 0xc42179c420 0xc42179c440 0xc42179c460 0xc42179c4a0 0xc42179c4c0 0xc42179c500 0xc42179c520 0xc42179c560 0xc42179c580 0xc42179c5a0 0xc42179c5c0 0xc42179c5e0 0xc42179c600 0xc42179c620], received [0xc421785ee0 0xc421785f00 0xc421785f20 0xc421785f40 0xc421785f80 0xc421785fc0 0xc421792000 0xc421792020 0xc421792060 0xc4217920e0 0xc421792100 0xc421792120 0xc421792140 0xc421792180 0xc4217921a0 0xc4217921c0 0xc4217921e0 0xc421792200 0xc421792220 0xc421792260]
+</code></pre>&#x8FDB;&#x800C;&#x4E0D;&#x65AD;&#x7684;&#x89E6;&#x53D1;<code>viewchange</code>&#x3002;</li>
+<li>&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#xFF1A;~&#x770B;&#x4E86;&#x4E00;&#x4E0B;<code>Xset</code>&#x6CA1;&#x6709;&#x5728;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x8FDB;&#x884C;&#x5B58;&#x50A8;&#xFF0C;&#x6240;&#x4EE5;&#x731C;&#x60F3;&#x662F;&#x8FD9;&#x4E2A;&#x539F;&#x56E0;&#x5BFC;&#x81F4;&#x6BCF;&#x6B21;&#x91CD;&#x542F;&#x4E4B;&#x540E;&#x62A5;&#x9519;&#x3002;~
+&#x5F53;&#x6536;&#x5230;&#x4E00;&#x4E2A;<code>quorum</code>&#x7684;<code>viewchange</code>&#x6D88;&#x606F;&#xFF0C;&#x5904;&#x7406;<code>NewView</code>&#x7684;&#x65F6;&#x5019;&#xFF1A;</li>
+<li>&#x5982;&#x679C;&#x8282;&#x70B9;&#x662F;&#x4E3B;&#x8282;&#x70B9;&#xFF1A;&#x89E6;&#x53D1;<code>func (instance *pbftCore) sendNewView() events.Event</code></li>
+<li>&#x5982;&#x679C;&#x8282;&#x70B9;&#x662F;&#x975E;&#x4E3B;&#x8282;&#x70B9;&#xFF1A;&#x89E6;&#x53D1;<code>func (instance *pbftCore) recvNewView(nv *types.NewView) events.Event</code>
+&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x90FD;&#x4F1A;&#x6700;&#x7EC8;&#x89E6;&#x53D1;<code>func (instance *pbftCore) processNewView() events.Event</code>&#x3002;&#x5947;&#x602A;&#x7684;&#x662F;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x5F53;&#x4E2D;&#xFF0C;&#x65E0;&#x8BBA;&#x662F;&#x4E3B;&#x8282;&#x70B9;&#x8FD8;&#x662F;&#x975E;&#x4E3B;&#x8282;&#x70B9;&#xFF0C;&#x5728;&#x8C03;&#x7528;<code>msgList := instance.assignSequenceNumbers(vset, cp.SequenceNumber)</code>&#x751F;&#x6210;<code>msgList</code>&#x7684;&#x65F6;&#x5019;&#xFF0C;<code>processNewView()</code>&#x4E0E;<code>sendNewView()/recvNewView(nv *types.NewView)</code>&#x91CC;&#x8C03;&#x7528;<code>func (instance *pbftCore) assignSequenceNumbers(vset []*types.ViewChange, h uint64) (msgList map[uint64]string)</code>&#x4F20;&#x9012;&#x7684;&#x53C2;&#x6570;&#x662F;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x751F;&#x6210;&#x7684;<code>msgList</code>&#x5374;&#x4E0D;&#x76F8;&#x540C;&#xFF1A;</li>
+</ul>
+<p>signer2:(&#x975E;&#x4E3B;&#x8282;&#x70B9;)</p>
+<pre><code>2017/11/13 17:29:39 Replica 1 received new-view 3
+2017/11/13 17:29:39 ---recvNewView() msgList:{nv.vset:[0xc43462cd80 0xc43462ce10 0xc43462cea0]}
+2017/11/13 17:29:39 receive new-view, v:3, X:[0xc422099460 0xc422099480 0xc4220994a0 0xc4220994c0 0xc422099500 0xc422099520 0xc422099560 0xc422099580 0xc4220995a0 0xc4220995e0 0xc422099600 0xc422099620 0xc422099640 0xc422099680 0xc4220996a0 0xc4220996c0 0xc4220996e0 0xc422099700 0xc422099720 0xc422099760]
+.....
+2017/11/13 17:29:39 ---processNewView() msgList:{nv.vset:[0xc43462cd80 0xc43462ce10 0xc43462cea0],cp.sequenceNumber:0}
+2017/11/13 17:29:39 Replica 1 failed to verify new-view Xset: computed [0xc4220ae020 0xc4220ae060 0xc4220ae080 0xc4220ae0a0 0xc4220ae0c0 0xc4220ae0e0 0xc4220ae120 0xc4220ae140 0xc4220ae160 0xc4220ae180 0xc4220ae1a0 0xc4220ae1e0 0xc4220ae200 0xc4220ae220 0xc4220ae240 0xc4220ae260 0xc4220ae280 0xc4220ae2a0 0xc4220ae2c0 0xc4220ae2e0], received [0xc422099460 0xc422099480 0xc4220994a0 0xc4220994c0 0xc422099500 0xc422099520 0xc422099560 0xc422099580 0xc4220995a0 0xc4220995e0 0xc422099600 0xc422099620 0xc422099640 0xc422099680 0xc4220996a0 0xc4220996c0 0xc4220996e0 0xc422099700 0xc422099720 0xc422099760]
+</code></pre><p>signer4&#xFF1A;&#xFF08;&#x4E3B;&#x8282;&#x70B9;&#xFF09;</p>
+<pre><code>2017/11/13 16:22:41 ---sendNewView() msgList:{nv.vset:[0xc437ec6090 0xc437e98480 0xc437ec6990],cp.sequenceNumber:0}
+2017/11/13 16:22:41 Replica 3 is new primary, sending new-view, v:3, X:[0xc437efc5e0 0xc437efc600 0xc437efc620 0xc437efc640 0xc437efc660 0xc437efc680 0xc437efc6a0 0xc437efc6c0 0xc437efc6e0 0xc437efc700 0xc437efc720 0xc437efc740 0xc437efc760 0xc437efc780 0xc437efc7a0 0xc437efc7c0 0xc437efc7e0 0xc437efc800 0xc437efc820 0xc437efc840]
+......
+2017/11/13 16:22:41 ---processNewView() msgList:{nv.vset:[0xc437ec6090 0xc437e98480 0xc437ec6990],cp.sequenceNumber:0}
+2017/11/13 16:22:41 Replica 3 failed to verify new-view Xset: computed [0xc437efc9a0 0xc437efc9c0 0xc437efc9e0 0xc437efca00 0xc437efca20 0xc437efca40 0xc437efca60 0xc437efca80 0xc437efcaa0 0xc437efcac0 0xc437efcae0 0xc437efcb00 0xc437efcb20 0xc437efcb40 0xc437efcb60 0xc437efcb80 0xc437efcba0 0xc437efcbc0 0xc437efcbe0 0xc437efcc00], received [0xc437efc5e0 0xc437efc600 0xc437efc620 0xc437efc640 0xc437efc660 0xc437efc680 0xc437efc6a0 0xc437efc6c0 0xc437efc6e0 0xc437efc700 0xc437efc720 0xc437efc740 0xc437efc760 0xc437efc780 0xc437efc7a0 0xc437efc7c0 0xc437efc7e0 0xc437efc800 0xc437efc820 0xc437efc840]
+</code></pre><p>&#x4F46;&#x662F;&#x5BF9;&#x4E8E;&#x540C;&#x4E00;&#x8282;&#x70B9;&#x6765;&#x8BF4;&#xFF0C;&#x53D1;&#x9001;&#x6216;&#x63A5;&#x6536;&#x5230;&#x7684;<code>xset</code>&#x4E0E;&#x5904;&#x7406;&#x65F6;&#x7684;<code>xset</code>&#x662F;&#x76F8;&#x540C;&#x7684;&#x3002;</p>
+<p>&#x5728;<code>func (instance *pbftCore) sendNewView() events.Event</code>&#x548C;<code>func (instance *pbftCore) processNewView() events.Event</code>&#x91CC;&#x90FD;&#x52A0;&#x5165;&#x4E86;&#x4E24;&#x4E2A;&#x5FAA;&#x73AF;&#xFF1A;</p>
+<pre><code>        msgList := instance.assignSequenceNumbers(nv.Vset, cp.SequenceNumber)
+        ......
+    msglist := ConvertMapToStruct(msgList) ////--xiaobei 11.9
+    ......
+    for key, value := range msgList { ////--xiaobei 11.14
+        logger.Infof(&quot;processNewView msgList[%d]=%x&quot;, key, value)
+    }
+    for key2, value2 := range msglist { ////--xiaobei 11.14
+        logger.Infof(&quot;processNewView xset[%d]={Seq:%d,Hash:%x}&quot;, key2, value2.Seq, value2.Hash)
+    }
+</code></pre><p>&#x5206;&#x522B;&#x67E5;&#x770B;&#x7ECF;&#x8FC7;<code>func (instance *pbftCore) assignSequenceNumbers(vset []*types.ViewChange, h uint64) (msgList map[uint64]string)</code>&#x548C;<code>func ConvertMapToStruct(msgList map[uint64]string) []*types.XSet</code>&#x4E4B;&#x540E;&#xFF0C;<code>msgList</code>&#x7684;&#x503C;&#x662F;&#x5426;&#x53D1;&#x751F;&#x53D8;&#x5316;&#xFF0C;&#x7ED3;&#x679C;&#x53D1;&#x73B0;&#x80FD;&#x591F;&#x6B63;&#x786E;&#x8FDB;&#x884C;&#x8F6C;&#x6362;&#xFF0C;&#x6CA1;&#x6709;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x3002;&#x63A5;&#x7740;&#x6BD4;&#x8F83;&#x4E86;<code>sendNewView()</code>&#x548C;<code>processNewView()</code>&#x91CC;&#x7684;<code>xset[]</code>,&#x53D1;&#x73B0;&#x4E8C;&#x8005;&#x76F8;&#x540C;&#x4E0B;&#x6807;&#x5BF9;&#x5E94;&#x7684;&#x503C;&#x5374;&#x4E0D;&#x540C;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
+<p><code>sendNewView()</code>:</p>
+<pre><code>xset[9]={Seq:6,Hash:efbfbdefbfbd293cefbfbd09efbfbd6d0e3a703fefbfbdefbfbd39efbfbd114aefbfbd28efbfbdefbfbd7218efbfbdefbfbd6defbfbd1defbfbdefbfbdefbfbd}
+</code></pre><p><code>processNewView()</code>:</p>
+<pre><code>xset[0]={Seq:6,Hash:efbfbdefbfbd293cefbfbd09efbfbd6d0e3a703fefbfbdefbfbd39efbfbd114aefbfbd28efbfbdefbfbd7218efbfbdefbfbd6defbfbd1defbfbdefbfbdefbfbd}
+</code></pre><p>&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x91CC;&#x9762;<code>seq:6</code>&#x5BF9;&#x5E94;&#x7684;<code>xset[]</code>&#x7684;&#x4E0B;&#x6807;&#x4E00;&#x4E2A;&#x662F;0&#xFF0C;&#x4E00;&#x4E2A;&#x662F;9&#x3002;&#x5728;&#x7B2C;&#x4E00;&#x6B21;&#x8FDB;&#x884C;<code>viewchange</code>&#x7684;&#x65F6;&#x5019;&#x80FD;&#x591F;&#x6B63;&#x786E;&#x8FDB;&#x884C;&#x662F;&#x56E0;&#x4E3A;&#x5F53;&#x65F6;<code>xset</code>&#x91CC;&#x9762;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x503C;&#xFF1A;</p>
+<pre><code>2017/11/14 15:59:09 sendNewView xset[0]={Seq:1,Hash:db3b8fbe2be02696f8d0cbf33f5b127800961ef6822aa8540cd0fcc967ff273c}
+</code></pre><ul>
+<li>&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x5728;<code>processNewView()</code>&#x91CC;&#x9762;&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;<code>msglist2</code>&#xFF0C;&#x4E0E;<code>msglist</code>&#x7C7B;&#x578B;&#x76F8;&#x540C;&#x3002;&#x5F53;&#x6536;&#x5230;&#x7684;<code>NewView</code>&#x91CC;&#x7684;<code>Xset</code>&#x4E0E;&#x65B0;&#x751F;&#x6210;&#x7684;<code>msgList</code>&#x91CC;&#x7684;<code>seq</code>&#x76F8;&#x540C;&#x65F6;&#xFF0C;&#x5C31;&#x6267;&#x884C;<code>msglist2[i] = msglist[j]</code>,&#x8FD9;&#x6837;&#x5C31;&#x80FD;&#x4FDD;&#x8BC1;&#x65B0;&#x751F;&#x6210;&#x7684;<code>msgList</code>&#x4E0E;<code>nv.Xset</code>&#x76F8;&#x540C;&#x6570;&#x7EC4;&#x4E0B;&#x6807;&#x5BF9;&#x5E94;&#x7684;<code>seq</code>&#x76F8;&#x540C;&#xFF1A;<pre><code>      l := len(msgList)
+  msglist2 := make([]*types.XSet, l)
+  for i := 0; i &lt; l; i++ {
+      for j := 0; j &lt; l; j++ {
+          if nv.Xset[i].Seq == msglist[j].Seq {
+              msglist2[i] = msglist[j]
+              break
+          }
+      }
+  }
+</code></pre></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="遇到的问题3.html" class="navigation navigation-prev " aria-label="Previous page: mine test-遇到的问题（3）">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="viewchange-test-遇到的问题2.html" class="navigation navigation-next " aria-label="Next page: viewchange test-遇到的问题（2）">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"viewchange test-遇到的问题（1）","level":"2.1.2.2.9","depth":4,"next":{"title":"viewchange test-遇到的问题（2）","level":"2.1.2.2.10","depth":4,"path":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题2.md","ref":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题2.md","articles":[]},"previous":{"title":"mine test-遇到的问题（3）","level":"2.1.2.2.8","depth":4,"path":"Chapter4 development notes/xiaobei/遇到的问题3.md","ref":"Chapter4 development notes/xiaobei/遇到的问题3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题1.md","mtime":"2017-11-27T00:46:33.872Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-27T12:38:20.732Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

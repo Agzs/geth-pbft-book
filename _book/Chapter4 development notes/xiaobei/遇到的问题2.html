@@ -1,0 +1,1335 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>mine test-遇到的问题（2） · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="遇到的问题3.html" />
+    
+    
+    <link rel="prev" href="遇到的问题1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../Chapter1 Geth/">
+            
+                <a href="../../Chapter1 Geth/">
+            
+                    
+                    Chapter1 Geth
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                <a href="../../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                    
+                    Section1.1 start & configure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../Chapter1 Geth/geth-engine.html">
+            
+                <a href="../../Chapter1 Geth/geth-engine.html">
+            
+                    
+                    Section1.2 engine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../Chapter1 Geth/geth-event-receive.html">
+            
+                <a href="../../Chapter1 Geth/geth-event-receive.html">
+            
+                    
+                    Section1.3 event-receive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../Chapter1 Geth/geth-event-send&mine.html">
+            
+                <a href="../../Chapter1 Geth/geth-event-send&mine.html">
+            
+                    
+                    Section1.4 event-send&mine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../Chapter1 Geth/Mining-process.html">
+            
+                <a href="../../Chapter1 Geth/Mining-process.html">
+            
+                    
+                    Section1.5 mining process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../Chapter1 Geth/communication.html">
+            
+                <a href="../../Chapter1 Geth/communication.html">
+            
+                    
+                    Section1.6 communication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../Chapter1 Geth/Ethereum-code.html">
+            
+                <a href="../../Chapter1 Geth/Ethereum-code.html">
+            
+                    
+                    Section1.7 code analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../Chapter2 fabric/">
+            
+                <a href="../../Chapter2 fabric/">
+            
+                    
+                    Chapter2 fabric
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../Chapter2 fabric/fabric-v0.6-startup.html">
+            
+                <a href="../../Chapter2 fabric/fabric-v0.6-startup.html">
+            
+                    
+                    Section2.1 fabric v0.6 startup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../Chapter2 fabric/fabric-event.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event.html">
+            
+                    
+                    Section2.2 Event
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../Chapter2 fabric/fabric-event-stream-to-consenter.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-stream-to-consenter.html">
+            
+                    
+                    Section2.2.1 stream to consenter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../Chapter2 fabric/fabric-event-consenter-to-pbft.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-consenter-to-pbft.html">
+            
+                    
+                    Section2.2.2 consenter to pbft
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../../Chapter2 fabric/fabric-event-pbft-to-network.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-pbft-to-network.html">
+            
+                    
+                    Section2.2.3 pbft to network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../Chapter2 fabric/fabric-consensus.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus.html">
+            
+                    
+                    Section2.3 Consensus
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../../Chapter2 fabric/fabric-consensus-event.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-event.html">
+            
+                    
+                    Section2.3.1 event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../../Chapter2 fabric/fabric-consensus-network.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-network.html">
+            
+                    
+                    Section2.3.2 network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../../Chapter2 fabric/fabric-consensus-crypto.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-crypto.html">
+            
+                    
+                    Section2.3.3 crypto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="../../Chapter2 fabric/fabric-consensus-blockchain.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-blockchain.html">
+            
+                    
+                    Section2.3.4 blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.5" data-path="../../Chapter2 fabric/fabric-consensus-stack.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-stack.html">
+            
+                    
+                    Section2.3.5 stack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.6" data-path="../../Chapter2 fabric/fabric-consensus-others.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-others.html">
+            
+                    
+                    Section2.3.6 others
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.7" data-path="../../Chapter2 fabric/Hyperledger-fabric-pbft-consensus.html">
+            
+                <a href="../../Chapter2 fabric/Hyperledger-fabric-pbft-consensus.html">
+            
+                    
+                    Section2.3.7 summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../Chapter2 fabric/fabric-message.html">
+            
+                <a href="../../Chapter2 fabric/fabric-message.html">
+            
+                    
+                    Section2.4 fabric message structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../Chapter2 fabric/Fabric-protocol.html">
+            
+                <a href="../../Chapter2 fabric/Fabric-protocol.html">
+            
+                    
+                    Section2.5 fabric protocol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../Chapter2 fabric/fabric-v0.6-实际入口serve函数.html">
+            
+                <a href="../../Chapter2 fabric/fabric-v0.6-实际入口serve函数.html">
+            
+                    
+                    Section2.6 fabric v0.6 实际入口serve()函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../Chapter2 fabric/接口与实现.html">
+            
+                <a href="../../Chapter2 fabric/接口与实现.html">
+            
+                    
+                    Section2.7 接口与实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../Chapter2 fabric/prePrepare-prepare-and-commit.html">
+            
+                <a href="../../Chapter2 fabric/prePrepare-prepare-and-commit.html">
+            
+                    
+                    Section2.8 prePrepare、prepare-and-commit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../Chapter3 clique/clique.html">
+            
+                <a href="../../Chapter3 clique/clique.html">
+            
+                    
+                    Chapter3 clique
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Chapter4 development notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../ethereum-plan.html">
+            
+                <a href="../ethereum-plan.html">
+            
+                    
+                    Section4.1 plan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Section4.2 notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../zhiguo-notes.html">
+            
+                <a href="../zhiguo-notes.html">
+            
+                    
+                    Section4.2.1 zhiguo's notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Section4.2.2 xiaobei's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.2.1" data-path="geth-pbft开发笔记.html">
+            
+                <a href="geth-pbft开发笔记.html">
+            
+                    
+                    geth-pbft开发笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.2" data-path="geth-pbft消息传递机制.html">
+            
+                <a href="geth-pbft消息传递机制.html">
+            
+                    
+                    geth-pbft消息传递机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.3" data-path="checkpoint部分的恢复与修改.html">
+            
+                <a href="checkpoint部分的恢复与修改.html">
+            
+                    
+                    checkpoint部分的恢复与修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.4" data-path="stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                <a href="stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                    
+                    stateUpdateEvent、stateUpdatedEvent的接收和处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.5" data-path="viewchange struct.html">
+            
+                <a href="viewchange struct.html">
+            
+                    
+                    viewchange struct
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.6" data-path="遇到的问题1.html">
+            
+                <a href="遇到的问题1.html">
+            
+                    
+                    mine test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.2.2.7" data-path="遇到的问题2.html">
+            
+                <a href="遇到的问题2.html">
+            
+                    
+                    mine test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.8" data-path="遇到的问题3.html">
+            
+                <a href="遇到的问题3.html">
+            
+                    
+                    mine test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.9" data-path="viewchange-test-遇到的问题1.html">
+            
+                <a href="viewchange-test-遇到的问题1.html">
+            
+                    
+                    viewchange test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.10" data-path="viewchange-test-遇到的问题2.html">
+            
+                <a href="viewchange-test-遇到的问题2.html">
+            
+                    
+                    viewchange test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.11" data-path="viewchange-test-遇到的问题3.html">
+            
+                <a href="viewchange-test-遇到的问题3.html">
+            
+                    
+                    viewchange test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.12" data-path="操作步骤.html">
+            
+                <a href="操作步骤.html">
+            
+                    
+                    操作步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="../Agzs/Home.html">
+            
+                <a href="../Agzs/Home.html">
+            
+                    
+                    Section4.2.3 Agzs's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.3.1" data-path="../Agzs/环境搭建.html">
+            
+                <a href="../Agzs/环境搭建.html">
+            
+                    
+                    搭建编译环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.2" data-path="../Agzs/addPeer操作解析.html">
+            
+                <a href="../Agzs/addPeer操作解析.html">
+            
+                    
+                    解析addPeer操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.3" data-path="../Agzs/配置文件问题.html">
+            
+                <a href="../Agzs/配置文件问题.html">
+            
+                    
+                    11.12_15 配置文件问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.4" data-path="../Agzs/peer共享问题.html">
+            
+                <a href="../Agzs/peer共享问题.html">
+            
+                    
+                    11.15_20 peer共享连接问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.5" data-path="../Agzs/pbft的API问题.html">
+            
+                <a href="../Agzs/pbft的API问题.html">
+            
+                    
+                    11.20_21 pbft的API问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.6" data-path="../Agzs/pbft投票选举新的授权节点signer.html">
+            
+                <a href="../Agzs/pbft投票选举新的授权节点signer.html">
+            
+                    
+                    11.21_22 pbft投票选举新的signer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.7" data-path="../Agzs/数据结构功能汇总.html">
+            
+                <a href="../Agzs/数据结构功能汇总.html">
+            
+                    
+                    数据结构功能汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.8" data-path="../Agzs/修改文件汇总.html">
+            
+                <a href="../Agzs/修改文件汇总.html">
+            
+                    
+                    修改文件汇总(push)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.9" data-path="../Agzs/编译运行问题汇总.html">
+            
+                <a href="../Agzs/编译运行问题汇总.html">
+            
+                    
+                    编译运行问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.10" data-path="../Agzs/系统存在的bug.html">
+            
+                <a href="../Agzs/系统存在的bug.html">
+            
+                    
+                    想到的bug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.11" data-path="../Agzs/交易测试.html">
+            
+                <a href="../Agzs/交易测试.html">
+            
+                    
+                    交易测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../env/">
+            
+                <a href="../../env/">
+            
+                    
+                    env
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../env/smart-contract.html">
+            
+                <a href="../../env/smart-contract.html">
+            
+                    
+                    geth and smart contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../env/git-merge.html">
+            
+                <a href="../../env/git-merge.html">
+            
+                    
+                    Git merge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../env/git-pull-撤销误操作.html">
+            
+                <a href="../../env/git-pull-撤销误操作.html">
+            
+                    
+                    Git pull撤销误操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../../env/solve-reported-error.html">
+            
+                <a href="../../env/solve-reported-error.html">
+            
+                    
+                    循环导包问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../../env/git-lfs-上传大于100MB文件.html">
+            
+                <a href="../../env/git-lfs-上传大于100MB文件.html">
+            
+                    
+                    git上传大文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../../env/安装librocksdb.so.4.1的共享库.html">
+            
+                <a href="../../env/安装librocksdb.so.4.1的共享库.html">
+            
+                    
+                    librocksdb.so.4.1共享库问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../Tips/">
+            
+                <a href="../../Tips/">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../Tips/Comma-ok.html">
+            
+                <a href="../../Tips/Comma-ok.html">
+            
+                    
+                    Comma-ok断言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../Tips/golang-protobuf-tutorial.html">
+            
+                <a href="../../Tips/golang-protobuf-tutorial.html">
+            
+                    
+                    golang 安装使用 protobuf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../Tips/Tips-in-Golang.html">
+            
+                <a href="../../Tips/Tips-in-Golang.html">
+            
+                    
+                    golang interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../../Tips/go语言-与-JSON.html">
+            
+                <a href="../../Tips/go语言-与-JSON.html">
+            
+                    
+                    go语言-与-JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../../Tips/Terminal-Lantern.html">
+            
+                <a href="../../Tips/Terminal-Lantern.html">
+            
+                    
+                    Terminal Lantern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../../Tips/append函数.html">
+            
+                <a href="../../Tips/append函数.html">
+            
+                    
+                    内置函数append()
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >mine test-遇到的问题（2）</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x51FA;&#x73B0;&#x95EE;&#x9898;&#xFF1A;signer1&#x53D1;&#x9001;PrePrepare&#x6D88;&#x606F;&#x540E;&#xFF0C;&#x5176;&#x4ED6;&#x8282;&#x70B9;&#x63A5;&#x6536;&#x4E0D;&#x5230;&#x8BE5;&#x6D88;&#x606F;&#xFF0C;&#x8FDB;&#x800C;&#x89E6;&#x53D1;&#x4E86;viewChange&#x4E8B;&#x4EF6;&#x3002;</p>
+<pre><code>&gt; miner.start()
+INFO [10-31|16:19:09] Transaction pool price threshold updated price=18000000000
+INFO [10-31|16:19:09] Starting mining operation 
+INFO [10-31|16:19:09] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=122.172&#xB5;s
+null
+&gt; 2017/10/31 16:19:09 Replica 0 received a block 423b9ec1e0431be488cf7f1a9d10302aff950aac7a8ce2d3a9087f8adc4f17ce
+2017/10/31 16:19:09 Replica 0 soft starting new view timer for 2s: new block 423b9ec1e0431be488cf7f1a9d10302aff950aac7a8ce2d3a9087f8adc4f17ce
+2017/10/31 16:19:09 Replica 0 is primary, issuing pre-prepare for block 423b9ec1e0431be488cf7f1a9d10302aff950aac7a8ce2d3a9087f8adc4f17ce
+2017/10/31 16:19:09 Primary 0 broadcasting pre-prepare for view=0/seqNo=9 and digest 423b9ec1e0431be488cf7f1a9d10302aff950aac7a8ce2d3a9087f8adc4f17ce
+2017/10/31 16:19:09 Starting timer
+2017/10/31 16:19:09 Replica 0 prepare count for view=0/seqNo=9: 0
+2017/10/31 16:19:09 Attempting to stop an unfired idle timer
+2017/10/31 16:19:09 Stopping timer
+2017/10/31 16:19:11 Event timer fired
+2017/10/31 16:19:11 Timer event delivered
+2017/10/31 16:19:11 Replica 0 batch main thread looping
+2017/10/31 16:19:11 Replica 0 processing event
+2017/10/31 16:19:11 Replica 0 view change timer expired, sending view change: new block 423b9ec1e0431be488cf7f1a9d10302aff950aac7a8ce2d3a9087f8adc4f17ce
+2017/10/31 16:19:11 Replica 0 stopping a running new view timer
+2017/10/31 16:19:11 Replica 0 prepare count for view=0/seqNo=9: 0
+2017/10/31 16:19:11 Attempting to stop an unfired idle timer
+2017/10/31 16:19:11 Stopping timer
+</code></pre><h1 id="&#x4E00;&#x3001;">&#x4E00;&#x3001;</h1>
+<ul>
+<li>&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#xFF1A;&#x5728;<code>func (pm *ProtocolManager) BroadcastMsg(msg *types.PbftMessage)</code>&#x91CC;&#x52A0;&#x5165;&#x8F93;&#x51FA;&#x8BED;&#x53E5;&#xFF0C;&#x53D1;&#x73B0;&#x5728;&#x6267;&#x884C;<code>err := peer.SendMsg(msg)</code>&#x65F6;&#x62A5;&#x9519;&#xFF0C;&#x8FD4;&#x56DE;&#x7684;&#x9519;&#x8BEF;&#x662F;<code>--err:=peer.SendMsg(msg)-- invalid message code: not handled</code>&#x3002;&#x51FD;&#x6570;<code>func (p *peer) SendMsg(msg *types.PbftMessage) error</code>&#x7ECF;&#x8FC7;&#x5C42;&#x5C42;&#x8C03;&#x7528;&#xFF0C;&#x6700;&#x7EC8;&#x8C03;&#x7528;&#x4E86;<code>func (rw *protoRW) WriteMsg(msg Msg) (err error)</code>&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x91CC;&#x9762;&#x6709;&#x4E00;&#x4E2A;&#x5224;&#x65AD;
+```
+if msg.Code &gt;= rw.Length {<pre><code>  return newPeerError(errInvalidMsgCode, &quot;not handled&quot;)
+</code></pre>  }</li>
+</ul>
+<pre><code>`rw.Length`&#x662F;&#x7ED3;&#x6784;&#x4F53;`Protocol`&#x4E0B;&#x7684;&#x4E00;&#x4E2A;&#x6210;&#x5458;&#x53D8;&#x91CF;&#xFF0C;&#x8BE5;&#x53D8;&#x91CF;&#x4EE3;&#x8868;&#x4E86;`message code`&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4E2A;&#x6570;&#x3002;&#x7531;&#x4E8E;&#x6211;&#x4EEC;&#x5728;`eth/protocol.go`&#x91CC;&#x9762;&#x589E;&#x52A0;`ConsensusMsg`&#xFF0C;&#x6240;&#x4EE5;&#x8FD9;&#x4E2A;`Length`&#x4E5F;&#x5F97;&#x53D8;&#x5316;&#x3002;
+* &#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;
+`Protocol.Length`&#x5728;`func NewProtocolManager(config *params.ChainConfig, mode downloader.SyncMode, networkId uint64, maxPeers int, mux *event.TypeMux, txpool txPool, engine consensus.Engine, blockchain *core.BlockChain, chaindb ethdb.Database) (*ProtocolManager, error)`&#x91CC;&#x9762;&#x901A;&#x8FC7;`Length:  ProtocolLengths[i]`&#x8BED;&#x53E5;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x5728;`eth/protocol.go`&#x91CC;&#x627E;&#x5230;`var ProtocolLengths = []uint64{17, 8}`,&#x5B83;&#x4EE3;&#x8868;&#x4E86;&#x4E0D;&#x540C;&#x534F;&#x8BAE;&#x7248;&#x672C;&#x6267;&#x884C;&#x6D88;&#x606F;&#x7684;&#x4E2A;&#x6570;&#xFF0C;&#x628A;&#x4ED6;&#x53D8;&#x4E3A;`var ProtocolLengths = []uint64{18, 9}`,&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x3002;
+# &#x4E8C;&#x3001;
+&#x89E3;&#x51B3;&#x5B8C;&#x4E0A;&#x8FF0;&#x95EE;&#x9898;&#x4E4B;&#x540E;&#xFF0C;`Preprepare`&#x6D88;&#x606F;&#x80FD;&#x6210;&#x529F;&#x4F20;&#x9012;&#x5230;&#x5404;&#x4E2A;&#x8282;&#x70B9;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x6267;&#x884C;`handleMsg`&#x65F6;&#x62A5;&#x9519;&#xFF1A;
+</code></pre><blockquote>
+<p>admin.addPeer(&quot;enode://1ca0c0cd707d5eec374117ff925a91c5e0322d61b0f42be0a1a8e5ba2c85af19be7a41dfb3848865096b8149fa2c6d95a6cd7fcf31c898d0a8a0f3387e283d52@127.0.0.1:2000&quot;)
+true
+----msg := &lt;-rw.in---
+----msg := &lt;-rw.in---
+-----msg.Code is ------ 17
+------err2 := pm.handleMsg(p)----- Invalid message - msg #17 (651 bytes): invalid message: (code 11) (size 651) rlp: type types.isPbftMessage_Payload is not RLP-serializable</p>
+<pre><code>* &#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;
+&#x4FEE;&#x6539;`pbftMessage`&#x7684;&#x683C;&#x5F0F;&#x4E3A;:
+</code></pre><p>type PbftMessage struct {
+    //Payload isPbftMessage_Payload <code>protobuf_oneof:&quot;payload&quot;</code>
+    Payload isPbftMessagepayload ////--xiaobei 11.2
+}</p>
+<pre><code>&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x3002;&#xFF08;&#x5176;&#x5B9E;&#x540E;&#x6765;&#x53D1;&#x73B0;&#xFF0C;&#x95EE;&#x9898;&#x5E76;&#x6CA1;&#x6709;&#x89E3;&#x51B3;&#xFF0C;rlp&#x8FD8;&#x662F;&#x4E0D;&#x80FD;&#x5BF9;`isPbftMessagepayload`&#x8FDB;&#x884C;&#x7F16;&#x7801;&#xFF09;
+# &#x4E09;&#x3001;
+* &#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x89E3;&#x51B3;&#x5B8C;&#x4E0A;&#x8FF0;&#x95EE;&#x9898;&#x540E;&#xFF0C;signer2&#x80FD;&#x4ECE;`manager.Queue()`&#x91CC;&#x53D6;&#x51FA;`PbftMessage`&#xFF0C;&#x5E76;&#x8C03;&#x7528;`func (instance *pbftCore) ProcessEvent(e events.Event) events.Event`&#x8FDB;&#x884C;&#x5904;&#x7406;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;`PbftMessage`&#x7684;&#x7C7B;&#x578B;&#x505A;&#x51FA;&#x5224;&#x65AD;&#x540E;&#xFF0C;&#x76F4;&#x63A5;&#x8C03;&#x7528;&#x4E86;default&#x91CC;&#x7684;&#x6267;&#x884C;&#x8BED;&#x53E5;&#xFF1A;
+</code></pre><p>2017/11/02 20:19:14 Replica 1 received an unknown message type pbft.Pbftmessage</p>
+<pre><code>* &#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x5728;`handleMsg()`&#x65F6;&#x5BF9;ConsensusMsg&#x8FDB;&#x884C;&#x5904;&#x7406;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5FD8;&#x8BB0;&#x628A;`PbftMessage`&#x7684;&#x6307;&#x9488;&#x4F20;&#x8FC7;&#x53BB;&#xFF0C;&#x4FEE;&#x6539;&#x8BED;&#x53E5;
+</code></pre><p>pm.pbftmanager.Queue() &lt;- &amp;PbftMessage ////--xiaobei 11.2</p>
+<pre><code># &#x56DB;&#x3001;
+* &#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x4FEE;&#x6539;&#x5B8C;&#x8FD9;&#x4E2A;&#x540E;&#xFF0C;`ProcessEvent()`&#x80FD;&#x591F;&#x5728;case&#x8BED;&#x53E5;&#x4E2D;&#x5BF9;`PbftMessage`&#x8FDB;&#x884C;&#x5904;&#x7406;&#xFF0C;&#x4F46;&#x662F;&#x53D1;&#x73B0;&#x5728;&#x5904;&#x7406;`next, err := instance.recvMsg(msg.Msg, msg.Sender)`&#x65F6;&#x8FDB;&#x884C;&#x62A5;&#x9519;,&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x6211;&#x4EEC;&#x628A;`PbftMessage`&#x653E;&#x5165;`commChan`&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5E76;&#x6CA1;&#x6709;&#x628A;sender&#x653E;&#x8FDB;&#x53BB;&#x3002;
+* &#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;&#x6211;&#x5728;`protocolManager`&#x8C03;&#x7528;`func (self *ProtocolManager) processConsensusMsg()`&#x8FDB;&#x884C;&#x5E7F;&#x64AD;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x521D;&#x59CB;&#x5316;&#x4E86;
+</code></pre><p>msg2 := &amp;pbft.Pbftmessage{ ////--xiaobei 11.2
+            Sender: self.id,
+            Msg:    msg1,
+        }
+        self.BroadcastMsg(msg2)
+<code>``
+&#x83B7;&#x5F97;</code>replicaID<code>&#x7684;&#x65B9;&#x6CD5;&#x662F;&#x5728;</code>func NewProtocolManager(config <em>params.ChainConfig, mode downloader.SyncMode, networkId uint64, maxPeers int, mux </em>event.TypeMux, txpool txPool, engine consensus.Engine, blockchain <em>core.BlockChain, chaindb ethdb.Database) (</em>ProtocolManager, error)<code>&#x91CC;&#x52A0;&#x5165;&#x8BED;&#x53E5;</code>manager.id = pb.GetReplicaID()`&#xFF0C;&#x4ECE;Pbft&#x91CC;&#x83B7;&#x5F97;&#x3002;</p>
+</blockquote>
+<p>&#x8FD9;&#x91CC;&#x6CE8;&#x610F;&#x4E0D;&#x8981;&#x5FD8;&#x4E86;&#x628A;<code>pbftMessage</code>&#x53D8;&#x4E3A;<code>Pbftmessage</code>,&#x56E0;&#x4E3A;&#x9996;&#x5B57;&#x6BCD;&#x5C0F;&#x5199;&#x7684;&#x8BDD;&#x8BE5;&#x7ED3;&#x6784;&#x4F53;&#x4E0D;&#x80FD;&#x518D;&#x5916;&#x90E8;&#x5305;&#x91CC;&#x8C03;&#x7528;&#x3002;</p>
+<h1 id="&#x4E94;&#x3001;">&#x4E94;&#x3001;</h1>
+<ul>
+<li><p>&#x51FA;&#x73B0;&#x95EE;&#x9898;&#xFF1A; &#x89E3;&#x51B3;&#x5B8C;&#x4E0A;&#x8FF0;&#x95EE;&#x9898;&#x540E;&#xFF0C;&#x53C8;&#x51FA;&#x73B0;&#x65B0;&#x95EE;&#x9898;&#xFF1A;</p>
+<pre><code>2017/11/02 20:55:11 Replica 1 batch main thread looping
+2017/11/02 20:55:11 Replica 1 processing event
+2017/11/02 20:55:11 Replica 1 batch main thread looping
+2017/11/02 20:55:11 Replica 1 processing event
+2017/11/02 20:55:11 Replica 1 received incoming message from 0
+proto: no encoder for Payload types.isPbftMessage_Payload [GetProperties]
+proto: tag has too few fields: &quot;&quot;
+</code></pre><p>&#x53D1;&#x73B0;&#x5728;&#x8C03;&#x7528;<code>p2p.Send(p.rw, ConsensusMsg, msg)</code>&#x91CC;&#x5BF9;msg&#x8FDB;&#x884C;&#x7F16;&#x7801;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6CA1;&#x6709;&#x6210;&#x529F;&#x5BF9;<code>Pbftmessage</code>&#x7684;&#x6210;&#x5458;&#x53D8;&#x91CF;<code>Payload</code>&#x8FDB;&#x884C;&#x7F16;&#x7801;&#xFF0C;<code>Payload</code>&#x7684;&#x7C7B;&#x578B;&#x662F;<code>types.isPbftMessage_Payload</code>&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x63A5;&#x53E3;&#xFF0C;rlp&#x4E0D;&#x80FD;&#x5BF9;&#x63A5;&#x53E3;&#x8FDB;&#x884C;&#x7F16;&#x7801;&#xFF1F;</p>
+</li>
+<li><p>&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;
+&#x5C06;&#x539F;&#x6765;&#x7684;<code>Pbftmessage</code>&#x548C;<code>PbftMessage</code>&#x5408;&#x5E76;&#x6210;&#x4E86;<code>PbftMessage</code>&#xFF1A;</p>
+<pre><code>type PbftMessage struct {
+  // Types that are valid to be assigned to Payload:
+  // PrePrepare *PrePrepare //=&gt; payload = 1
+  // Prepare    *Prepare    //=&gt; payload = 2
+  // Commit     *Commit     //=&gt; payload = 3
+  // Checkpoint *Checkpoint //=&gt; payload = 4
+  // ViewChange *ViewChange //=&gt; payload = 5
+  // NewView    *NewView    //=&gt; payload = 6
+  Sender      uint64 //=&gt;add. --Agzs
+  PayloadCode uint64
+  Payload     interface{}
+}
+const (
+  // PbftMessage payload
+  PrePrepareMsg    = 0x01
+  PrepareMsg       = 0x02
+  CommitMsg        = 0x03
+  CheckpointMsg    = 0x04
+  ViewChangeMsg    = 0x05
+  NewViewMsg       = 0x06
+  FetchBlockMsgMsg = 0x07
+)
+</code></pre><p>&#x5404;&#x79CD;&#x5171;&#x8BC6;&#x6D88;&#x606F;&#x5C06;&#x7EE7;&#x627F;<code>Payload</code>&#x63A5;&#x53E3;&#xFF0C;&#x5728;&#x51FD;&#x6570;<code>func (pm *ProtocolManager) handleMsg(p *peer) error</code>&#x91CC;&#x53D6;&#x6D88;&#x5BF9;<code>ConsensusMsg</code>&#x7684;&#x5904;&#x7406;&#xFF0C;&#x6539;&#x4E3A;&#x5BF9;&#x5404;&#x79CD;&#x6D88;&#x606F;&#x7C7B;&#x578B;&#x8FDB;&#x884C;&#x5206;&#x522B;&#x5904;&#x7406;&#xFF0C;&#x5904;&#x7406;&#x5B8C;&#x4E4B;&#x540E;&#x518D;&#x7EDF;&#x4E00;&#x5C01;&#x88C5;&#x6210;&#x4E3A;<code>PbftMessage</code>&#x7C7B;&#x578B;&#x653E;&#x5165;<code>Queue()</code>&#x91CC;&#x9762;&#x3002;&#x5728;&#x8C03;&#x7528;<code>p2p.send()</code>&#x4E4B;&#x524D;&#x4E5F;&#x5728;<code>func (p *peer) SendMsg(msg *types.PbftMessage) error</code>&#x91CC;&#x5BF9;&#x5171;&#x8BC6;&#x6D88;&#x606F;&#x8FDB;&#x884C;&#x5206;&#x7C7B;&#x5904;&#x7406;&#xFF0C;&#x5904;&#x7406;&#x6210;&#x660E;&#x786E;&#x7684;&#x5171;&#x8BC6;&#x6D88;&#x606F;&#x7C7B;&#x578B;&#x540E;&#x518D;&#x53D1;&#x9001;&#x51FA;&#x53BB;&#x3002;</p>
+</li>
+</ul>
+<p>~&#x6839;&#x636E;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x52A0;&#x5165;&#x8F93;&#x51FA;&#x8BED;&#x53E5;&#xFF0C;&#x731C;&#x60F3;&#x51FA;&#x9519;&#x539F;&#x56E0;&#x5982;&#x4E0B;&#xFF1A;signer1&#x53D1;&#x9001;<code>preprepare</code>&#x6D88;&#x606F;&#x540E;&#xFF0C;signer2&#x7684;protocalManager&#x63A5;&#x6536;&#x6765;&#x81EA;signer1&#x7684;&#x6D88;&#x606F;&#x540E;&#xFF0C;&#x7ECF;&#x8FC7;&#x5C42;&#x5C42;&#x8C03;&#x7528;&#xFF0C;&#x6700;&#x7EC8;&#x8C03;&#x7528;<code>func (pm *ProtocolManager) handle(p *peer) error</code>&#x65F6;&#x5728;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x6B65;&#x9AA4;&#x65F6;&#x4F1A;&#x62A5;&#x9519;&#xFF1A;~</p>
+<pre><code>if err := p.Handshake(pm.networkId, td, head, genesis); err != nil {
+        p.Log().Debug(&quot;Ethereum handshake failed&quot;, &quot;err&quot;, err)
+        return err
+    }
+</code></pre><p>~&#x8FD9;&#x91CC;&#x5C31;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;&#x4E86;&#xFF0C;&#x4E0D;&#x4F1A;&#x518D;&#x540E;&#x671F;&#x8C03;&#x7528;<code>func (pm *ProtocolManager) handleMsg(p *peer) error</code>&#xFF0C;&#x4E5F;&#x5C31;&#x65E0;&#x6CD5;&#x5BF9;<code>ConsensusMsg</code>&#x8FDB;&#x884C;&#x5904;&#x7406;&#xFF0C;&#x8FDB;&#x800C;&#x4E0D;&#x80FD;&#x628A;<code>pbftMessage</code>&#x653E;&#x5165;manager&#x7684;<code>events</code>&#x7BA1;&#x9053;&#x3002;~</p>
+<p>~&#x5728;&#x63E1;&#x624B;&#x534F;&#x8BAE;&#x65F6;&#x8FDB;&#x884C;&#x62A5;&#x9519;&#x7684;&#x6839;&#x672C;&#x539F;&#x56E0;&#x5728;&#x4E8E;&#xFF0C;&#x5728;&#x8C03;&#x7528;<code>func (p *peer) Handshake(network uint64, td *big.Int, head common.Hash, genesis common.Hash) error</code>&#x7684;&#x5185;&#x90E8;&#x6267;&#x884C;&#x4E86;<code>errc &lt;- p.readStatus(network, &amp;status, genesis)</code>&#xFF0C;&#x8FDB;&#x800C;&#x8C03;&#x7528;&#x4E86;<code>func (p *peer) readStatus(network uint64, status *statusData, genesis common.Hash) (err error)</code>&#x3002;&#x5728;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x91CC;&#x9762;&#x62A5;&#x9519;&#x5730;&#x65B9;&#x6709;&#x4E24;&#x4E2A;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x5C31;&#x662F;<code>readMsg</code>&#x62A5;&#x9519;&#xFF0C;&#x518D;&#x4E00;&#x4E2A;&#x5C31;&#x662F;<code>status.GenesisBlock != genesis</code>~</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="遇到的问题1.html" class="navigation navigation-prev " aria-label="Previous page: mine test-遇到的问题（1）">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="遇到的问题3.html" class="navigation navigation-next " aria-label="Next page: mine test-遇到的问题（3）">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"mine test-遇到的问题（2）","level":"2.1.2.2.7","depth":4,"next":{"title":"mine test-遇到的问题（3）","level":"2.1.2.2.8","depth":4,"path":"Chapter4 development notes/xiaobei/遇到的问题3.md","ref":"Chapter4 development notes/xiaobei/遇到的问题3.md","articles":[]},"previous":{"title":"mine test-遇到的问题（1）","level":"2.1.2.2.6","depth":4,"path":"Chapter4 development notes/xiaobei/遇到的问题1.md","ref":"Chapter4 development notes/xiaobei/遇到的问题1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter4 development notes/xiaobei/遇到的问题2.md","mtime":"2017-11-27T00:46:33.872Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-27T12:38:20.732Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

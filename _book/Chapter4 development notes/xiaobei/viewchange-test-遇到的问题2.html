@@ -1,0 +1,1390 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>viewchange test-遇到的问题（2） · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="viewchange-test-遇到的问题3.html" />
+    
+    
+    <link rel="prev" href="viewchange-test-遇到的问题1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../Chapter1 Geth/">
+            
+                <a href="../../Chapter1 Geth/">
+            
+                    
+                    Chapter1 Geth
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                <a href="../../Chapter1 Geth/geth-startup-&-configure.html">
+            
+                    
+                    Section1.1 start & configure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../Chapter1 Geth/geth-engine.html">
+            
+                <a href="../../Chapter1 Geth/geth-engine.html">
+            
+                    
+                    Section1.2 engine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../Chapter1 Geth/geth-event-receive.html">
+            
+                <a href="../../Chapter1 Geth/geth-event-receive.html">
+            
+                    
+                    Section1.3 event-receive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../Chapter1 Geth/geth-event-send&mine.html">
+            
+                <a href="../../Chapter1 Geth/geth-event-send&mine.html">
+            
+                    
+                    Section1.4 event-send&mine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../Chapter1 Geth/Mining-process.html">
+            
+                <a href="../../Chapter1 Geth/Mining-process.html">
+            
+                    
+                    Section1.5 mining process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../Chapter1 Geth/communication.html">
+            
+                <a href="../../Chapter1 Geth/communication.html">
+            
+                    
+                    Section1.6 communication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../Chapter1 Geth/Ethereum-code.html">
+            
+                <a href="../../Chapter1 Geth/Ethereum-code.html">
+            
+                    
+                    Section1.7 code analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../Chapter2 fabric/">
+            
+                <a href="../../Chapter2 fabric/">
+            
+                    
+                    Chapter2 fabric
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../Chapter2 fabric/fabric-v0.6-startup.html">
+            
+                <a href="../../Chapter2 fabric/fabric-v0.6-startup.html">
+            
+                    
+                    Section2.1 fabric v0.6 startup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../Chapter2 fabric/fabric-event.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event.html">
+            
+                    
+                    Section2.2 Event
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../Chapter2 fabric/fabric-event-stream-to-consenter.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-stream-to-consenter.html">
+            
+                    
+                    Section2.2.1 stream to consenter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../Chapter2 fabric/fabric-event-consenter-to-pbft.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-consenter-to-pbft.html">
+            
+                    
+                    Section2.2.2 consenter to pbft
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../../Chapter2 fabric/fabric-event-pbft-to-network.html">
+            
+                <a href="../../Chapter2 fabric/fabric-event-pbft-to-network.html">
+            
+                    
+                    Section2.2.3 pbft to network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../Chapter2 fabric/fabric-consensus.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus.html">
+            
+                    
+                    Section2.3 Consensus
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../../Chapter2 fabric/fabric-consensus-event.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-event.html">
+            
+                    
+                    Section2.3.1 event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../../Chapter2 fabric/fabric-consensus-network.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-network.html">
+            
+                    
+                    Section2.3.2 network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../../Chapter2 fabric/fabric-consensus-crypto.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-crypto.html">
+            
+                    
+                    Section2.3.3 crypto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="../../Chapter2 fabric/fabric-consensus-blockchain.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-blockchain.html">
+            
+                    
+                    Section2.3.4 blockchain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.5" data-path="../../Chapter2 fabric/fabric-consensus-stack.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-stack.html">
+            
+                    
+                    Section2.3.5 stack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.6" data-path="../../Chapter2 fabric/fabric-consensus-others.html">
+            
+                <a href="../../Chapter2 fabric/fabric-consensus-others.html">
+            
+                    
+                    Section2.3.6 others
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.7" data-path="../../Chapter2 fabric/Hyperledger-fabric-pbft-consensus.html">
+            
+                <a href="../../Chapter2 fabric/Hyperledger-fabric-pbft-consensus.html">
+            
+                    
+                    Section2.3.7 summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../Chapter2 fabric/fabric-message.html">
+            
+                <a href="../../Chapter2 fabric/fabric-message.html">
+            
+                    
+                    Section2.4 fabric message structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../Chapter2 fabric/Fabric-protocol.html">
+            
+                <a href="../../Chapter2 fabric/Fabric-protocol.html">
+            
+                    
+                    Section2.5 fabric protocol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../Chapter2 fabric/fabric-v0.6-实际入口serve函数.html">
+            
+                <a href="../../Chapter2 fabric/fabric-v0.6-实际入口serve函数.html">
+            
+                    
+                    Section2.6 fabric v0.6 实际入口serve()函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../Chapter2 fabric/接口与实现.html">
+            
+                <a href="../../Chapter2 fabric/接口与实现.html">
+            
+                    
+                    Section2.7 接口与实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../Chapter2 fabric/prePrepare-prepare-and-commit.html">
+            
+                <a href="../../Chapter2 fabric/prePrepare-prepare-and-commit.html">
+            
+                    
+                    Section2.8 prePrepare、prepare-and-commit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../Chapter3 clique/clique.html">
+            
+                <a href="../../Chapter3 clique/clique.html">
+            
+                    
+                    Chapter3 clique
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Chapter4 development notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../ethereum-plan.html">
+            
+                <a href="../ethereum-plan.html">
+            
+                    
+                    Section4.1 plan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Section4.2 notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../zhiguo-notes.html">
+            
+                <a href="../zhiguo-notes.html">
+            
+                    
+                    Section4.2.1 zhiguo's notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Section4.2.2 xiaobei's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.2.1" data-path="geth-pbft开发笔记.html">
+            
+                <a href="geth-pbft开发笔记.html">
+            
+                    
+                    geth-pbft开发笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.2" data-path="geth-pbft消息传递机制.html">
+            
+                <a href="geth-pbft消息传递机制.html">
+            
+                    
+                    geth-pbft消息传递机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.3" data-path="checkpoint部分的恢复与修改.html">
+            
+                <a href="checkpoint部分的恢复与修改.html">
+            
+                    
+                    checkpoint部分的恢复与修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.4" data-path="stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                <a href="stateUpdateEvent和stateUpdatedEvent的接收和处理.html">
+            
+                    
+                    stateUpdateEvent、stateUpdatedEvent的接收和处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.5" data-path="viewchange struct.html">
+            
+                <a href="viewchange struct.html">
+            
+                    
+                    viewchange struct
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.6" data-path="遇到的问题1.html">
+            
+                <a href="遇到的问题1.html">
+            
+                    
+                    mine test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.7" data-path="遇到的问题2.html">
+            
+                <a href="遇到的问题2.html">
+            
+                    
+                    mine test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.8" data-path="遇到的问题3.html">
+            
+                <a href="遇到的问题3.html">
+            
+                    
+                    mine test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.9" data-path="viewchange-test-遇到的问题1.html">
+            
+                <a href="viewchange-test-遇到的问题1.html">
+            
+                    
+                    viewchange test-遇到的问题（1）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.2.2.10" data-path="viewchange-test-遇到的问题2.html">
+            
+                <a href="viewchange-test-遇到的问题2.html">
+            
+                    
+                    viewchange test-遇到的问题（2）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.11" data-path="viewchange-test-遇到的问题3.html">
+            
+                <a href="viewchange-test-遇到的问题3.html">
+            
+                    
+                    viewchange test-遇到的问题（3）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2.12" data-path="操作步骤.html">
+            
+                <a href="操作步骤.html">
+            
+                    
+                    操作步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="../Agzs/Home.html">
+            
+                <a href="../Agzs/Home.html">
+            
+                    
+                    Section4.2.3 Agzs's notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.3.1" data-path="../Agzs/环境搭建.html">
+            
+                <a href="../Agzs/环境搭建.html">
+            
+                    
+                    搭建编译环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.2" data-path="../Agzs/addPeer操作解析.html">
+            
+                <a href="../Agzs/addPeer操作解析.html">
+            
+                    
+                    解析addPeer操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.3" data-path="../Agzs/配置文件问题.html">
+            
+                <a href="../Agzs/配置文件问题.html">
+            
+                    
+                    11.12_15 配置文件问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.4" data-path="../Agzs/peer共享问题.html">
+            
+                <a href="../Agzs/peer共享问题.html">
+            
+                    
+                    11.15_20 peer共享连接问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.5" data-path="../Agzs/pbft的API问题.html">
+            
+                <a href="../Agzs/pbft的API问题.html">
+            
+                    
+                    11.20_21 pbft的API问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.6" data-path="../Agzs/pbft投票选举新的授权节点signer.html">
+            
+                <a href="../Agzs/pbft投票选举新的授权节点signer.html">
+            
+                    
+                    11.21_22 pbft投票选举新的signer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.7" data-path="../Agzs/数据结构功能汇总.html">
+            
+                <a href="../Agzs/数据结构功能汇总.html">
+            
+                    
+                    数据结构功能汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.8" data-path="../Agzs/修改文件汇总.html">
+            
+                <a href="../Agzs/修改文件汇总.html">
+            
+                    
+                    修改文件汇总(push)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.9" data-path="../Agzs/编译运行问题汇总.html">
+            
+                <a href="../Agzs/编译运行问题汇总.html">
+            
+                    
+                    编译运行问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.10" data-path="../Agzs/系统存在的bug.html">
+            
+                <a href="../Agzs/系统存在的bug.html">
+            
+                    
+                    想到的bug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3.11" data-path="../Agzs/交易测试.html">
+            
+                <a href="../Agzs/交易测试.html">
+            
+                    
+                    交易测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../env/">
+            
+                <a href="../../env/">
+            
+                    
+                    env
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../env/smart-contract.html">
+            
+                <a href="../../env/smart-contract.html">
+            
+                    
+                    geth and smart contract
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../env/git-merge.html">
+            
+                <a href="../../env/git-merge.html">
+            
+                    
+                    Git merge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../env/git-pull-撤销误操作.html">
+            
+                <a href="../../env/git-pull-撤销误操作.html">
+            
+                    
+                    Git pull撤销误操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../../env/solve-reported-error.html">
+            
+                <a href="../../env/solve-reported-error.html">
+            
+                    
+                    循环导包问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../../env/git-lfs-上传大于100MB文件.html">
+            
+                <a href="../../env/git-lfs-上传大于100MB文件.html">
+            
+                    
+                    git上传大文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../../env/安装librocksdb.so.4.1的共享库.html">
+            
+                <a href="../../env/安装librocksdb.so.4.1的共享库.html">
+            
+                    
+                    librocksdb.so.4.1共享库问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../Tips/">
+            
+                <a href="../../Tips/">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../Tips/Comma-ok.html">
+            
+                <a href="../../Tips/Comma-ok.html">
+            
+                    
+                    Comma-ok断言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../Tips/golang-protobuf-tutorial.html">
+            
+                <a href="../../Tips/golang-protobuf-tutorial.html">
+            
+                    
+                    golang 安装使用 protobuf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../Tips/Tips-in-Golang.html">
+            
+                <a href="../../Tips/Tips-in-Golang.html">
+            
+                    
+                    golang interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../../Tips/go语言-与-JSON.html">
+            
+                <a href="../../Tips/go语言-与-JSON.html">
+            
+                    
+                    go语言-与-JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../../Tips/Terminal-Lantern.html">
+            
+                <a href="../../Tips/Terminal-Lantern.html">
+            
+                    
+                    Terminal Lantern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../../Tips/append函数.html">
+            
+                <a href="../../Tips/append函数.html">
+            
+                    
+                    内置函数append()
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >viewchange test-遇到的问题（2）</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <ul>
+<li>&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x8FD8;&#x662F;&#x5728;<code>func (instance *pbftCore) processNewView() events.Event</code>&#x91CC;&#x62A5;&#x7684;&#x9519;&#xFF1A;
+```
+2017/11/14 21:30:03 Replica 2 missing assigned, non-checkpointed request batch ?&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;t &#xFFFD;&#xFFFD;4&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;Q&#xFFFD;&#xFFFD;-&#xFFFD;&#xFFFD;&#xFFFD;y&#xFFFD;&#xFFFD;&lt;r
+2017/11/14 21:30:03 Replica 2 requesting to fetch batch ?&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;t &#xFFFD;&#xFFFD;4&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;&#xFFFD;Q&#xFFFD;&#xFFFD;-&#xFFFD;&#xFFFD;&#xFFFD;y&#xFFFD;&#xFFFD;&lt;r</li>
+</ul>
+<pre><code>* &#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#xFF1A;&#x62A5;&#x9519;&#x7684;&#x5730;&#x65B9;&#x4E3A;&#xFF1A;
+</code></pre><pre><code>        if _, ok := instance.blockStore[d]; !ok { //=&gt; reqBatchStore -&gt; blockStore --Agzs
+            logger.Warningf(&quot;Replica %d missing assigned, non-checkpointed block %x&quot;,
+                instance.id, d)
+            //fmt.Println(&quot;ok is&quot;, ok)
+            if _, ok := instance.missingReqBatches[d]; !ok {
+                logger.Warningf(&quot;Replica %v requesting to fetch block %x&quot;,
+                    instance.id, d)
+                newReqBatchMissing = true
+                instance.missingReqBatches[d] = true
+            }
+        }
+</code></pre><pre><code>&#x51FA;&#x73B0;&#x8BE5;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#x662F;&#x56E0;&#x4E3A;`Xset`&#x91CC;&#x5B58;&#x50A8;&#x7684;`block`&#x5728;`blockStore`&#x91CC;&#x6CA1;&#x6709;&#x5B58;&#x50A8;&#xFF0C;&#x800C;`Xset`&#x91CC;&#x5B58;&#x50A8;&#x7684;`block`&#x662F;&#x4ECE;`pset`&#x3001;`qset`&#x91CC;&#x9762;&#x8BFB;&#x53D6;&#x51FA;&#x6765;&#x7684;&#x3002;&#x7ECF;&#x67E5;&#x770B;&#x5171;&#x8BC6;&#x6D88;&#x606F;&#x7684;&#x4F20;&#x64AD;&#x8FC7;&#x7A0B;&#xFF0C;&#x53D1;&#x73B0;`pset`&#x548C;`qset`&#x5B58;&#x50A8;&#x7684;`blockhash`&#x7684;&#x4FE1;&#x606F;&#x90FD;&#x662F;&#x4ECE;`certstore`&#x91CC;&#x8BFB;&#x53D6;&#x7684;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x4ECE;`blockstore`&#x3002;&#x5728;&#x7B2C;&#x4E00;&#x6B21;&#x8FDB;&#x884C;`viewchange`&#x7684;&#x65F6;&#x5019;&#x4E4B;&#x6240;&#x4EE5;&#x80FD;&#x591F;&#x6B63;&#x786E;&#x8FDB;&#x884C;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x521D;&#x59CB;&#x72B6;&#x6001;&#x65F6;`pset`&#x548C;`qset`&#x91CC;&#x90FD;&#x6CA1;&#x6709;&#x5B58;&#x50A8;&#x4EFB;&#x4F55;&#x4FE1;&#x606F;&#xFF1A;
+</code></pre><p>2017/11/15 20:31:30 Replica 1 restored state: view: 0, seqNo: 0, pset: 0, qset: 0, blockStore: 0, chkpts: 1 h: 0</p>
+<pre><code>&#x5F53;&#x8FDB;&#x884C;`pbft`&#x5171;&#x8BC6;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5728;&#x51FD;&#x6570;`func (instance *pbftCore) recvPrePrepare(preprep *types.PrePrepare) error`&#x91CC;&#x7684;`block`&#x8FDB;&#x884C;&#x5224;&#x65AD;&#xFF1A;
+</code></pre><p>if _, ok := instance.blockStore[string(preprep.BlockHash)]; !ok &amp;&amp; string(preprep.BlockHash) != &quot;&quot; {
+        digest := string(preprep.Block.Hash().Bytes())
+        ......
+        instance.blockStore[digest] = preprep.Block
+        ......
+    }</p>
+<pre><code>&#x5982;&#x679C;&#x533A;&#x5757;&#x4E0D;&#x5728;`blockstore`&#x91CC;&#x5C31;&#x628A;&#x5B83;&#x5B58;&#x5230;`blockstore`&#x91CC;&#x3002;&#x8FD9;&#x6837;&#xFF0C;&#x6BCF;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x5171;&#x8BC6;&#xFF0C;&#x90FD;&#x4F1A;&#x5C06;`block`&#x5B58;&#x50A8;&#x5230;`blockstore`&#x91CC;&#xFF0C;&#x540C;&#x65F6;&#x5173;&#x4E8E;`block`&#x7684;&#x4FE1;&#x606F;&#x4E5F;&#x90FD;&#x5B58;&#x50A8;&#x5230;&#x4E86;`pset`&#x3001;`qset`&#x91CC;&#x3002;&#x5F53;&#x5173;&#x95ED;`geth-pbtf`&#xFF0C;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x65F6;&#xFF0C;`pset`&#x3001;`qset`&#x91CC;&#x5B58;&#x50A8;&#x7684;&#x533A;&#x5757;&#x4FE1;&#x606F;&#x4ECD;&#x5728;&#xFF0C;&#x4F46;&#x662F;`blockstore`&#x91CC;&#x5B58;&#x50A8;&#x7684;&#x533A;&#x5757;&#x4FE1;&#x606F;&#x6E05;&#x7A7A;&#x4E86;&#xFF1A;
+
+&#x7B2C;&#x4E00;&#x6B21;&#x542F;&#x52A8;`geth-pbft`&#xFF1A;
+</code></pre><p>2017/11/15 20:31:30 Replica 1 restored state: view: 0, seqNo: 0, pset: 0, qset: 0, blockStore: 0, chkpts: 1 h: 0</p>
+<pre><code>&#x7B2C;&#x4E8C;&#x6B21;&#x542F;&#x52A8;`geth-pbft`:
+</code></pre><p>2017/11/15 21:14:03 Replica 1 restored state: view: 1, seqNo: 10, pset: 5, qset: 10, blockStore: 1, chkpts: 1 h: 0</p>
+<pre><code>&#x7531;&#x4E0A;&#x8FF0;&#x4FE1;&#x606F;&#x53EF;&#x89C1;&#xFF0C;&#x533A;&#x5757;&#x90FD;&#x5DF2;&#x7ECF;&#x6316;&#x5230;&#x7B2C;10&#x4E2A;&#x4E86;&#xFF0C;&#x5728;`blockstore`&#x91CC;&#x5374;&#x53EA;&#x5B58;&#x50A8;&#x4E86;&#x4E00;&#x4E2A;&#x533A;&#x5757;&#x3002;~&#x56E0;&#x6B64;&#x63A8;&#x65AD;&#x51FA;&#x73B0;&#x4E0A;&#x8FF0;&#x9519;&#x8BEF;&#x7684;&#x539F;&#x56E0;&#x662F;`blockStore`&#x5B58;&#x50A8;&#x95EE;&#x9898;&#x3002;~
+
+&#x63A5;&#x6536;&#x5230;&#x533A;&#x5757;&#x7684;&#x5B58;&#x50A8;&#x662F;&#x5728;`func (instance *pbftCore) recvPrePrepare(preprep *types.PrePrepare) error`&#x91CC;&#xFF0C;&#x5728;&#x5B58;&#x50A8;&#x540E;&#x589E;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x8F93;&#x51FA;&#xFF0C;&#x8F93;&#x51FA;&#x5F53;&#x524D;&#x5728;`blockstore`&#x91CC;&#x5B58;&#x50A8;&#x7684;&#x533A;&#x5757;&#x7684;`digest`&#xFF1A;
+</code></pre><pre><code>            for key := range instance.blockStore { ////--xiaobei 11.16
+        logger.Infof(&quot;blockstore digest is %x&quot;, key)
+    }
+</code></pre><pre><code>&#x7ECF;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#x53D1;&#x73B0;&#xFF0C;&#x5728;&#x6BCF;&#x4E00;&#x4E2A;`view`&#x4E0B;&#xFF0C;`blockstore`&#x91CC;&#x533A;&#x5757;&#x7684;&#x5B58;&#x50A8;&#x662F;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x95EE;&#x9898;&#x7684;&#xFF1A;
+</code></pre><p>2017/11/16 09:48:00 Replica 2 received pre-prepare from replica 0 for view=0/seqNo=1
+INFO [11-16|09:48:00] Replica storing block in outstanding block store Replica(PeerID)=2 hash=fe77dc&#x2026;554253
+2017/11/16 09:48:00 blockstore digest is fe77dc4b817bd2be04a373d231261e05a5bc737847b1242e7c9d919b49554253</p>
+<pre><code>&#x5F53;&#x6316;&#x5230;&#x7B2C;6&#x4E2A;&#x5757;&#x65F6;&#xFF1A;
+</code></pre><p>2017/11/16 09:49:30 Replica 2 received pre-prepare from replica 1 for view=1/seqNo=6
+INFO [11-16|09:49:30] Replica storing block in outstanding block store Replica(PeerID)=2 hash=fd549e&#x2026;6ff0f3
+......
+2017/11/16 09:49:30 blockstore digest is fd549e8a0fe954e268f41dc263f0e7295ed71687dd8b8c6358aff976576ff0f3
+2017/11/16 09:49:30 blockstore digest is 944db88485614f2417678ca5ce79769975fc4a28a4271033ab99e37d4f47972a
+2017/11/16 09:49:30 blockstore digest is a24e71c8a348b9e9f410f10952ee4643de0fe5444ff8842403566bf5aec6eaf7
+2017/11/16 09:49:30 blockstore digest is e36111de4b9e0ed3b4c7fa24994332151d2a9db9a046f4b429c9cb123954793e
+2017/11/16 09:49:30 blockstore digest is 480fdabed83d8bc39fee8d9bc22b09c519213ff61f05187085f778a466e77116</p>
+<pre><code>&gt;&#x6B64;&#x65F6;`blockstore`&#x7684;&#x957F;&#x5EA6;&#x53EA;&#x6709;5&#x662F;&#x56E0;&#x4E3A;&#x671F;&#x95F4;&#x53D1;&#x751F;&#x4E86;`viewchange`,&#x5728;`view0`&#x65F6;&#x5B58;&#x50A8;&#x4E86;&#x4E00;&#x4E2A;&#x533A;&#x5757;&#xFF0C;&#x5F53;`viewchange`&#x6210;&#x529F;&#x4E4B;&#x540E;&#xFF0C;&#x5C31;&#x4F1A;&#x6E05;&#x7A7A;`blockstore`&#x91CC;&#x7684;&#x4FE1;&#x606F;&#x3002;
+
+&#x7531;&#x6B64;&#x53EF;&#x89C1;&#xFF0C;`blockstore`&#x91CC;&#x533A;&#x5757;&#x7684;&#x5B58;&#x50A8;&#x4E0D;&#x5B58;&#x5728;&#x95EE;&#x9898;&#xFF0C;~&#x95EE;&#x9898;&#x51FA;&#x5728;&#x91CD;&#x65B0;&#x542F;&#x52A8;`geth-pbtf`&#x65F6;`blockstore`&#x7684;&#x6062;&#x590D;&#x91CD;&#x5EFA;&#x4E0A;~&#x3002;
+
+&#x5728;&#x72B6;&#x6001;&#x91CD;&#x5EFA;&#x51FD;&#x6570;`func (instance *pbftCore) restoreState()`&#x589E;&#x52A0;&#x8F93;&#x51FA;&#x8BED;&#x53E5;&#x8FDB;&#x884C;&#x8C03;&#x8BD5;&#xFF0C;&#x53D1;&#x73B0;&#xFF1A;
+</code></pre><p>2017/11/16 10:57:07 reqBlockesPacked&apos;s length is 6
+2017/11/16 10:57:07 restore blockstore digest is 1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347
+2017/11/16 10:57:07 restore blockstore digest is 1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347
+2017/11/16 10:57:07 restore blockstore digest is 1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347
+2017/11/16 10:57:07 restore blockstore digest is 1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347
+2017/11/16 10:57:07 restore blockstore digest is 1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347
+2017/11/16 10:57:07 restore blockstore digest is 1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347</p>
+<pre><code>&#x6062;&#x590D;&#x51FA;&#x7684;`blockstore`&#x7684;`digest`&#x90FD;&#x662F;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x957F;&#x5EA6;&#x662F;&#x5BF9;&#x7684;&#xFF0C;&#x8FD9;&#x4E5F;&#x662F;&#x6062;&#x590D;&#x51FA;&#x7684;`blockStore`&#x957F;&#x5EA6;&#x4E3A;1&#x7684;&#x539F;&#x56E0;&#x3002;
+
+&#x8FDB;&#x4E00;&#x6B65;&#x8FDB;&#x884C;&#x8C03;&#x8BD5;&#xFF0C;&#x53D1;&#x73B0;&#x95EE;&#x9898;&#x51FA;&#x5728;`reqBlockesPacked, err := instance.helper.ReadStateSet(&quot;reqBlock.&quot;)`&#x8FD9;&#x91CC;&#xFF0C;`reqBlockesPacked`&#x7684;&#x7C7B;&#x578B;&#x4E3A;`var reqBlockesPacked map[string][]byte`&#xFF0C;&#x7ECF;&#x8F93;&#x51FA;&#x53D1;&#x73B0;&#xFF0C;&#x5B83;&#x7684;`value`&#x503C;&#x59CB;&#x7EC8;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF1A;
+</code></pre><p>2017/11/16 11:20:35 reqBlockesPacked&apos;s length is 6
+2017/11/16 11:20:35 reqBlockesPacked value is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d
+2017/11/16 11:20:35 reqBlockesPacked value is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d
+2017/11/16 11:20:35 reqBlockesPacked value is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d
+2017/11/16 11:20:35 reqBlockesPacked value is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d
+2017/11/16 11:20:35 reqBlockesPacked value is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d
+2017/11/16 11:20:35 reqBlockesPacked value is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d</p>
+<pre><code>&#x8FDB;&#x4E00;&#x6B65;&#x6392;&#x67E5;`block`&#x5728;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x7684;&#x5B58;&#x50A8;&#xFF0C;&#x53D1;&#x73B0;&#x5728;&#x5B58;&#x50A8;&#x533A;&#x5757;&#x7684;&#x51FD;&#x6570;`func (instance *pbftCore) persistRequestBlock(digest string)`&#x91CC;&#xFF0C;&#x4ECE;`blockstore`&#x91CC;&#x8BFB;&#x53D6;&#x51FA;&#x7684;&#x4E0D;&#x540C;&#x7684;&#x533A;&#x5757;&#xFF0C;&#x7ECF;&#x8FC7;&#x8BED;&#x53E5;`reqBlockPacked, err := json.Marshal(reqBock)`&#x540E;&#xFF0C;`reqBlockPacked`&#x7ED3;&#x679C;&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;
+</code></pre><p>2017/11/17 11:55:03 reqBock is Block(#115): Size: 606.00 B {
+MinerHash: 61d6fc1b8458212a1369ef0a51698d5451c99cdf452f197665ab03d42fcbfb01
+Header(948b1526747fde350d05fa793ed1eca36f447a31e6d185a7edcc763ec2d82ab7):
+[
+......
+}
+2017/11/17 11:55:03 reqBlockPacked is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d</p>
+<p>...
+2017/11/17 11:55:17 reqBock is Block(#116): Size: 606.00 B {
+MinerHash: 5cb19e017ea42021a81a7340007a46882a7531fcda0176507fb590fd6a8b9195
+Header(cbd320d43c9466d7a167a87e62393774c7248de32f7fe49acd50eb8744eccf9d):
+[
+......
+}
+2017/11/17 11:55:17 reqBlockPacked is 7b2252656365697665644174223a22303030312d30312d30315430303a30303a30305a222c22526563656976656446726f6d223a6e756c6c7d</p>
+<pre><code>&#x7ECF;&#x67E5;&#x627E;&#x8D44;&#x6599;&#x53D1;&#x73B0;&#xFF0C;`reqBock`&#x7684;&#x7ED3;&#x6784;&#x95EE;&#x9898;&#x4F7F;`block`&#x5E8F;&#x5217;&#x5316;&#x6210;`JSON`&#x683C;&#x5F0F;&#x5931;&#x8D25;&#xFF0C;&#x6309;&#x7167;&#x4E0B;&#x9762;&#x7684;&#x65B9;&#x6CD5;&#x89E3;&#x51B3;&#x5B8C;`block`&#x7684;&#x5B58;&#x50A8;&#x95EE;&#x9898;&#x540E;&#xFF0C;&#x53D1;&#x73B0;&#x6700;&#x5F00;&#x59CB;&#x63D0;&#x793A;&#x7684;&#x95EE;&#x9898;&#x8FD8;&#x662F;&#x6CA1;&#x6709;&#x89E3;&#x51B3;&#xFF0C;`pset`&#x3001;`qset`&#x91CC;&#x5B58;&#x50A8;&#x7684;&#x533A;&#x5757;&#x7684;`digest`&#x548C;`blockstore`&#x91CC;&#x5B58;&#x50A8;&#x7684;&#x4E0D;&#x4E00;&#x6837;&#x3002;
+</code></pre><p>2017/11/20 19:49:56 pset--block digest is efbfbdefbfbdefbfbd432aefbfbd546eefbfbdefbfbdefbfbdc2a96c28efbfbdefbfbd23efbfbd53efbfbd1355efbfbd725b7202efbfbdefbfbd06efbfbd
+...
+2017/11/20 19:49:56 pset--block digest is efbfbd1f3cefbfbd21694d6d6aefbfbdefbfbdefbfbdd0830cefbfbdefbfbdefbfbd6a6b0b35efbfbddaab3cefbfbd5fefbfbdefbfbdefbfbdefbfbd
+2017/11/20 19:49:56 pset--block digest is 0f0623efbfbdefbfbd5928216defbfbd761c137fefbfbd64efbfbd53efbfbd68efbfbd4cefbfbd04112305efbfbdefbfbd080236
+2017/11/20 19:49:56 qset--block digest is 265e2c3aefbfbdefbfbd3f0132efbfbddb87efbfbdefbfbdefbfbd6a4479efbfbd191a0aefbfbd68efbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbd34
+2017/11/20 19:49:56 qset--block digest is 60193d16efbfbd3a19efbfbd36efbfbdefbfbdefbfbdefbfbdefbfbd280befbfbd6befbfbd06efbfbdefbfbd4cefbfbd5a1311efbfbdefbfbdefbfbd6276
+2017/11/20 19:49:56 qset--block digest is efbfbd1f3cefbfbd21694d6d6aefbfbdefbfbdefbfbdd0830cefbfbdefbfbdefbfbd6a6b0b35efbfbddaab3cefbfbd5fefbfbdefbfbdefbfbdefbfbd
+2017/11/20 19:49:56 qset--block digest is efbfbd22efbfbdefbfbd1a7812efbfbdefbfbd790a2e49efbfbdefbfbd7f286008426a02efbfbdefbfbdefbfbd30efbfbd2205efbfbdefbfbdefbfbd
+2017/11/20 19:49:56 qset--block digest is efbfbdefbfbdefbfbd432aefbfbd546eefbfbdefbfbdefbfbdc2a96c28efbfbdefbfbd23efbfbd53efbfbd1355efbfbd725b7202efbfbdefbfbd06efbfbd
+...
+2017/11/20 19:49:56 reqBlockesPacked&apos;s length is 10
+2017/11/20 19:49:56 restore blockstore digest is 0f0623b5f55928216db7761c137fd764b453ed68e44ca104112305a790080236
+2017/11/20 19:49:56 restore blockstore digest is 265e2c3ae9c33f0132d9db878d92e66a4479cc191a0a80689bacbba4adf2af34
+2017/11/20 19:49:56 restore blockstore digest is 2ed126b8eb16f23153fcd8c843d7ddaec6a25d5d4e6969bcea03b5dfdfea5782
+2017/11/20 19:49:56 restore blockstore digest is b722bfd81a7812f1e5790a2e49b69b7f286008426a02f29b993092220594acb6
+2017/11/20 19:49:56 restore blockstore digest is c69b3a68493d0b9bf2c64490051084db253ba00ce5a7bd70600a97fb202d1693
+...</p>
+<pre><code>&#x7ECF;&#x8FC7;`debug`&#x53D1;&#x73B0;&#xFF0C;&#x95EE;&#x9898;&#x51FA;&#x5728;`raw, err := json.Marshal(&amp;types.PQset{Set: set})`&#x8FD9;&#x6761;&#x8BED;&#x53E5;&#x4E0A;&#xFF0C;`set`&#x91CC;&#x7684;`viewchange`&#x91CC;&#x7684;`BlockHash`&#x4E0D;&#x80FD;&#x6B63;&#x786E;&#x8F6C;&#x6362;&#x6210;`json`&#x683C;&#x5F0F;&#xFF0C;&#x8F6C;&#x6362;&#x540E;&#x7684;`BlockHash`&#x4E0E;&#x8F6C;&#x6362;&#x524D;&#x7684;`BlockHash`&#x5BF9;&#x5E94;&#x4E0D;&#x4E0A;&#x3002;
+* &#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;
+1. &#x9996;&#x5148;&#x6539;&#x4E00;&#x4E0B;&#x8F93;&#x51FA;&#x683C;&#x5F0F;&#xFF0C;&#x628A;`%s`&#x6362;&#x6210;`%x`&#x3002;
+2. &#x89E3;&#x51B3;`blockstore`&#x5B58;&#x50A8;&#x95EE;&#x9898;: &#x7ECF;&#x67E5;&#x9605;&#x8D44;&#x6599;&#x540E;&#x53D1;&#x73B0;&#xFF0C;&#x5F53;&#x628A;&#x7ED3;&#x6784;&#x4F53;&#x4F1A;&#x8F6C;&#x5316;&#x4E3A;JSON&#x5BF9;&#x8C61;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EA;&#x6709;&#x7ED3;&#x6784;&#x4F53;&#x91CC;&#x8FB9;&#x4EE5;&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x5F00;&#x5934;&#x7684;&#x53EF;&#x88AB;&#x5BFC;&#x51FA;&#x7684;&#x5B57;&#x6BB5;&#x624D;&#x4F1A;&#x88AB;&#x8F6C;&#x5316;&#x8F93;&#x51FA;&#x3002;~&#x5728;&#x8BED;&#x53E5;`reqBlockPacked, err := json.Marshal(reqBock)`&#x91CC;&#xFF0C;`reqBock`&#x7684;&#x7C7B;&#x578B;&#x4E3A;`Block`&#x7C7B;&#x578B;&#xFF0C;&#x5C06;`Block`&#x5185;&#x7684;&#x6210;&#x5458;&#x53D8;&#x91CF;&#x7684;&#x9996;&#x5B57;&#x6BCD;&#x6539;&#x4E3A;&#x5927;&#x5199;&#xFF1A;~
+</code></pre><p>type Block struct { ////change for json.Marshal()--xiaobei 11.17
+    // header       <em>Header
+    // uncles       []</em>Header
+    // transactions Transactions</p>
+<pre><code>// // caches
+// hash atomic.Value
+// size atomic.Value
+
+// // Td is used by package core to store the total difficulty
+// // of the chain up to and including the block.
+// td *big.Int
+
+Hheader       *Header
+Uuncles       []*Header
+Ttransactions Transactions
+
+// caches
+Hhash atomic.Value
+Ssize atomic.Value
+
+// Td is used by package core to store the total difficulty
+// of the chain up to and including the block.
+Ttd *big.Int
+
+// These fields are used by package eth to track
+// inter-peer block relay.
+ReceivedAt   time.Time
+ReceivedFrom interface{}
+</code></pre><p>}</p>
+<pre><code>&#x5728;`types`&#x4E0B;&#x65B0;&#x5EFA;&#x6587;&#x4EF6;`gen_block_json.go`&#xFF0C;&#x5728;&#x8BE5;&#x6587;&#x4EF6;&#x91CC;&#x5B9A;&#x4E49;&#x7684;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x80FD;&#x591F;&#x5B9E;&#x73B0;&#x5C06;`Block`&#x8F6C;&#x6362;&#x6210;&#x80FD;&#x591F;&#x8FDB;&#x884C;`json`&#x7F16;&#x7801;&#x7684;`Block`&#xFF0C;&#x5E76;&#x5728;`func (instance *pbftCore) persistRequestBlock(digest string)`&#x548C;`func (instance *pbftCore) restoreState() `&#x91CC;&#x9762;&#x8C03;&#x7528;&#x8FD9;&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x3002;
+</code></pre><p>//=&gt; overwrite persistRequestBlock. --Agzs
+func (instance <em>pbftCore) persistRequestBlock(digest string) {
+    ...
+    reqBlockPacked, err := reqBock.MarshalJSON() ////--xiaobei 11.22
+    ...
+}
+func (instance </em>pbftCore) restoreState() {
+    ...
+    if err == nil {
+        for k, v := range reqBlockesPacked {
+            reqBlock := &amp;types.Block{} //=&gt;RequestBatch -&gt; BLock. --Agzs
+            //err = json.Unmarshal(v, reqBlock)
+            err = reqBlock.UnmarshalJSON(v) ////--xiaobei 11.22
+                ...
+        }
+    } else {
+        ....    }</p>
+<p>}</p>
+<pre><code>&#x7ECF;&#x4FEE;&#x6539;&#x540E;&#xFF0C;`block`&#x80FD;&#x591F;&#x6B63;&#x786E;&#x5B58;&#x50A8;&#x8FDB;`blockstore`&#x91CC;&#xFF0C;&#x6BCF;&#x6B21;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x540E;&#xFF0C;`blockstore`&#x7684;&#x957F;&#x5EA6;&#x4E5F;&#x662F;&#x6B63;&#x786E;&#x7684;&#xFF1A;
+</code></pre><p>2017/11/20 19:49:56 Replica 0 restored state: view: 1, seqNo: 9, pset: 8, qset: 9, blockStore: 10, chkpts: 1 h: 0
+```</p>
+<ol>
+<li>&#x89E3;&#x51B3;<code>pset</code>&#x3001;<code>qset</code>&#x4E2D;<code>digest</code>&#x5B58;&#x50A8;&#x9519;&#x8BEF;&#x7684;&#x95EE;&#x9898;&#xFF1A;&#x5C06;<code>viewchange</code>&#x7ED3;&#x6784;&#x4F53;&#x91CC;&#x7684;<code>BlockHash</code>&#x7531;<code>string</code>&#x7C7B;&#x578B;&#x53D8;&#x4E3A;<code>common.hash</code>&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x6B64;&#x6B21;&#x66F4;&#x6539;&#x8FD8;&#x4F1A;&#x6D89;&#x53CA;&#x5230;&#x5176;&#x4ED6;&#x5730;&#x65B9;&#x7684;&#x5173;&#x4E8E;&#x683C;&#x5F0F;&#x7684;&#x4FEE;&#x6539;&#xFF0C;&#x5728;&#x8FD9;&#x4E0D;&#x505A;&#x8D58;&#x8FF0;&#xFF0C;&#x8BE6;&#x60C5;&#x53C2;&#x89C1;&#x4EE3;&#x7801; &#x3002;</li>
+</ol>
+<p>&#x89E3;&#x51B3;&#x5B8C;&#x4EE5;&#x4E0A;&#x95EE;&#x9898;&#x4E4B;&#x540E;&#xFF0C;&#x6700;&#x521D;&#x7684;&#x62A5;&#x9519;&#x6700;&#x7EC8;&#x89E3;&#x51B3;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="viewchange-test-遇到的问题1.html" class="navigation navigation-prev " aria-label="Previous page: viewchange test-遇到的问题（1）">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="viewchange-test-遇到的问题3.html" class="navigation navigation-next " aria-label="Next page: viewchange test-遇到的问题（3）">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"viewchange test-遇到的问题（2）","level":"2.1.2.2.10","depth":4,"next":{"title":"viewchange test-遇到的问题（3）","level":"2.1.2.2.11","depth":4,"path":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题3.md","ref":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题3.md","articles":[]},"previous":{"title":"viewchange test-遇到的问题（1）","level":"2.1.2.2.9","depth":4,"path":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题1.md","ref":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter4 development notes/xiaobei/viewchange-test-遇到的问题2.md","mtime":"2017-11-27T00:46:33.872Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-27T12:38:20.732Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
